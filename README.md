@@ -27,22 +27,6 @@ dashboard con notifiche Telegram per i nuovi annunci.
    / scartato.
 
 ## Setup
-
-### 0. Le chiavi API sono gia' pronte per i test in locale
-
-Le chiavi che mi hai passato sono gia' in un file `.env` nella cartella del
-progetto (escluso da git tramite `.gitignore`, non finira' mai in un
-commit). Manca solo `TELEGRAM_CHAT_ID`: apri una chat con il tuo bot su
-Telegram, mandagli un messaggio qualsiasi, poi apri nel browser
-`https://api.telegram.org/bot<IL_TUO_TOKEN>/getUpdates` e cerca `"chat":
-{"id": ...}` nella risposta — incollalo nel file `.env`.
-
-**Importante**: queste chiavi sono ora anche nella cronologia della
-conversazione con Claude. Se in futuro condividi questa chat con qualcuno
-o il repo diventa pubblico, rigenerale (sono tutte gratuite e ci vuole un
-minuto): Adzuna e SerpApi dal loro pannello, Anthropic da
-console.anthropic.com, Telegram parlando di nuovo con @BotFather.
-
 ### 1. Crea il repository
 
 Carica tutti questi file su un repository GitHub (va bene anche privato).
