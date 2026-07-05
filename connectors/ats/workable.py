@@ -35,8 +35,15 @@ def fetch_workable_jobs(account: str) -> List[dict]:
 
 
 def _format_location(location) -> str:
+    if isinstance(location, list):
+        parts = [_format_location(loc) for loc in location]
+        return "; ".join(p for p in parts if p)
     if isinstance(location, dict):
-        parts = [location.get("city"), location.get("region"), location.get("country")]
+        # provo diversi nomi di campo possibili, gli schemi pubblici non sono documentati al 100%
+        city = location.get("city") or location.get("location_str")
+        region = location.get("region") or location.get("state")
+        country = location.get("country") or location.get("country_code")
+        parts = [city, region, country]
         return ", ".join(p for p in parts if p)
     if isinstance(location, str):
         return location
@@ -46,7 +53,9 @@ def _format_location(location) -> str:
 def to_job_postings(raw_jobs: List[dict], company_name: str) -> List[JobPosting]:
     postings = []
     for j in raw_jobs:
-        location_str = _format_location(j.get("location")) or ("Remoto" if j.get("telecommute") else "")
+        # provo sia "location" (singolare) sia "locations" (plurale): schemi diversi usano nomi diversi
+        location_field = j.get("location") or j.get("locations") or j.get("workplace")
+        location_str = _format_location(location_field) or ("Remoto" if j.get("telecommute") or j.get("remote") else "")
         postings.append(
             JobPosting(
                 company=company_name,
