@@ -50,6 +50,6 @@ def notify_new_jobs(jobs: list) -> None:
             f"  punteggio: {j.get('relevance_score', '?')}/100"
         )
     if len(jobs) > 15:
-        lines.append(f"\n...e altri {len(jobs) - 15}. Vedi la dashboard per la lista completa.")
+        lines.append(f"\n...e altri {len(jobs) - 15}. Vedi la dashboard per la lista completa. https://beautymarketingjobfinder-emanuelaaaaaaaaaa.streamlit.app/ ")
 
     send_telegram_message("\n".join(lines))
