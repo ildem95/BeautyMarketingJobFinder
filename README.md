@@ -27,6 +27,22 @@ dashboard con notifiche Telegram per i nuovi annunci.
    / scartato.
 
 ## Setup
+
+### 0. Le chiavi API sono gia' pronte per i test in locale
+
+Le chiavi che mi hai passato sono gia' in un file `.env` nella cartella del
+progetto (escluso da git tramite `.gitignore`, non finira' mai in un
+commit). Manca solo `TELEGRAM_CHAT_ID`: apri una chat con il tuo bot su
+Telegram, mandagli un messaggio qualsiasi, poi apri nel browser
+`https://api.telegram.org/bot<IL_TUO_TOKEN>/getUpdates` e cerca `"chat":
+{"id": ...}` nella risposta — incollalo nel file `.env`.
+
+**Importante**: queste chiavi sono ora anche nella cronologia della
+conversazione con Claude. Se in futuro condividi questa chat con qualcuno
+o il repo diventa pubblico, rigenerale (sono tutte gratuite e ci vuole un
+minuto): Adzuna e SerpApi dal loro pannello, Anthropic da
+console.anthropic.com, Telegram parlando di nuovo con @BotFather.
+
 ### 1. Crea il repository
 
 Carica tutti questi file su un repository GitHub (va bene anche privato).
@@ -88,13 +104,62 @@ capire se e' un ATS noto o serve il fallback custom_llm.
 Da questo momento la dashboard si aggiorna da sola ogni volta che la
 pipeline fa un nuovo commit.
 
+## Risultati solo da Adzuna/Google Jobs? Debug dei connettori aziendali
+
+Se `data/jobs.json` ha solo `"source": "adzuna"` o `"source": "google_jobs..."`
+e niente da SmartRecruiters/Workable/Workday/siti custom, usa lo script di
+debug dedicato invece di aspettare il prossimo run schedulato:
+
+```bash
+python debug_companies.py            # testa tutte le aziende configurate
+python debug_companies.py aesop      # testa solo le aziende il cui nome contiene "aesop"
+```
+
+Per ogni azienda mostra quanti annunci grezzi arrivano dalla fonte, e se il
+conteggio e' 0 per un connettore ad API diretta (SmartRecruiters, Workable,
+Workday) ispeziona anche la risposta HTTP grezza — questo distingue subito
+tra due situazioni molto diverse:
+- **le chiavi JSON che ci aspettiamo non esistono** (es. il nostro codice
+  cerca `"jobs"` ma la risposta vera ha `"data"` o simili): e' un bug di
+  mapping nel connettore, facilmente sistemabile una volta visto lo schema
+  reale
+- **l'azienda ha davvero zero posizioni aperte in questo momento** che
+  matchano: non e' un bug, e' solo il mercato del lavoro in quel momento
+
+Incolla l'output di questo script (anche solo per le aziende a 0 risultati)
+e sistemiamo il connettore specifico in base a quello che dice davvero
+l'API, invece di continuare a indovinare.
+
+## Cambiare modello LLM (costi)
+
+Di default la pipeline usa Claude Haiku. Se vuoi provare un modello piu'
+economico via OpenRouter (es. gpt-oss-120b, circa 15-20 volte piu' economico
+per lo stesso volume di token):
+
+1. Crea un account su https://openrouter.ai e genera una API key.
+2. Aggiungi `OPENROUTER_API_KEY` al tuo `.env` locale (e poi ai secrets di
+   GitHub quando sei soddisfatto dei risultati).
+3. Imposta `LLM_PROVIDER=openrouter` (stesso posto: `.env` in locale,
+   secret `LLM_PROVIDER` su GitHub Actions).
+4. Prova prima in locale con `python debug_companies.py` per vedere se la
+   qualita' delle classificazioni/estrazioni ti convince, prima di lasciarlo
+   sul run automatico.
+
+Il modello si cambia con `OPENROUTER_MODEL` (default `openai/gpt-oss-120b`);
+qualunque modello disponibile su OpenRouter funziona, e' solo questa stringa
+da cambiare.
+
 ## Testare in locale
 
 ```bash
 pip install -r requirements.txt
-playwright install --with-deps chromium   # una tantum, serve al connettore custom_llm
+playwright install chromium   # una tantum, serve al connettore custom_llm
 python main.py    # legge automaticamente le chiavi da .env
 ```
+
+Su Windows usa `playwright install chromium` (senza `--with-deps`, che serve
+solo per installare librerie di sistema su Linux/CI ed e' gia' nel workflow
+GitHub Actions).
 
 Per testare un singolo connettore senza lanciare tutta la pipeline, da una
 shell Python:

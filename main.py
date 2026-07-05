@@ -50,48 +50,63 @@ def collect_from_generalist_sources():
     return jobs
 
 
+def _collect_one_company(company: dict) -> list:
+    connector = company["connector"]
+    name = company["name"]
+
+    if connector == "greenhouse":
+        raw = greenhouse.fetch_greenhouse_jobs(company["greenhouse_board_token"])
+        return greenhouse.to_job_postings(raw, name)
+
+    elif connector == "lever":
+        raw = lever.fetch_lever_jobs(company["lever_slug"], eu=company.get("lever_eu", False))
+        return lever.to_job_postings(raw, name)
+
+    elif connector == "smartrecruiters":
+        raw = smartrecruiters.fetch_smartrecruiters_jobs(company["smartrecruiters_id"])
+        return smartrecruiters.to_job_postings(raw, name)
+
+    elif connector == "workable":
+        raw = workable.fetch_workable_jobs(company["workable_account"])
+        return workable.to_job_postings(raw, name)
+
+    elif connector == "workday":
+        tenant = company["workday_tenant"]
+        site = company["workday_site"]
+        wd_server = company.get("workday_server", "wd1")
+        applied_facets = company.get("workday_applied_facets", {})
+        search_text = company.get("workday_search_text", "")
+        raw = workday.fetch_workday_jobs(
+            tenant=tenant, site=site, wd_server=wd_server, applied_facets=applied_facets, search_text=search_text
+        )
+        return workday.to_job_postings(raw, name, tenant, site, wd_server)
+
+    elif connector == "custom_llm":
+        jobs = []
+        for url in company.get("careers_urls", []):
+            jobs.extend(custom_llm.extract_jobs_with_llm(url, name))
+        return jobs
+
+    else:
+        return []
+
+
 def collect_from_companies():
     jobs = []
 
     for company in COMPANIES:
         connector = company.get("connector")
         name = company["name"]
+
+        if connector is None:
+            continue  # non ancora mappata, non serve loggare ad ogni run
+
         try:
-            if connector == "greenhouse":
-                raw = greenhouse.fetch_greenhouse_jobs(company["greenhouse_board_token"])
-                jobs.extend(greenhouse.to_job_postings(raw, name))
-
-            elif connector == "lever":
-                raw = lever.fetch_lever_jobs(company["lever_slug"], eu=company.get("lever_eu", False))
-                jobs.extend(lever.to_job_postings(raw, name))
-
-            elif connector == "smartrecruiters":
-                raw = smartrecruiters.fetch_smartrecruiters_jobs(company["smartrecruiters_id"])
-                jobs.extend(smartrecruiters.to_job_postings(raw, name))
-
-            elif connector == "workable":
-                raw = workable.fetch_workable_jobs(company["workable_account"])
-                jobs.extend(workable.to_job_postings(raw, name))
-
-            elif connector == "workday":
-                tenant = company["workday_tenant"]
-                site = company["workday_site"]
-                wd_server = company.get("workday_server", "wd1")
-                applied_facets = company.get("workday_applied_facets", {})
-                raw = workday.fetch_workday_jobs(
-                    tenant=tenant, site=site, wd_server=wd_server, applied_facets=applied_facets
-                )
-                jobs.extend(workday.to_job_postings(raw, name, tenant, site, wd_server))
-
-            elif connector == "custom_llm":
-                for url in company.get("careers_urls", []):
-                    jobs.extend(custom_llm.extract_jobs_with_llm(url, name))
-
-            else:
-                print(f"[{name}] connector non ancora configurato, salto (vedi config/companies.py)")
-
+            company_jobs = _collect_one_company(company)
+            jobs.extend(company_jobs)
+            print(f"  [{name}] ({connector}): {len(company_jobs)} annunci")
         except Exception as e:
-            print(f"[{name}] errore durante la raccolta: {e}")
+            print(f"  [{name}] ({connector}): ERRORE - {type(e).__name__}: {e}")
 
     return jobs
 

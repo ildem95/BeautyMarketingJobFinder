@@ -13,16 +13,10 @@ MODIFICA QUI il profilo se le priorita' della candidata cambiano (es. se
 si apre anche a Torino/Roma, o se vuole includere ruoli di e-commerce).
 """
 import json
-import os
 from typing import List
 
-from anthropic import Anthropic
-
 from shared.models import JobPosting
-
-client = Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
-
-MODEL = "claude-haiku-4-5-20251001"
+import llm_client
 
 PROFILE_DESCRIPTION = """
 Candidata con poco piu' di 3 anni di esperienza come Brand Manager / Brand
@@ -63,19 +57,14 @@ def _build_classify_prompt(job: JobPosting) -> str:
 
 
 def _clean_json_response(raw_text: str) -> str:
-    text = raw_text.strip()
+    text = (raw_text or "").strip()
     text = text.removeprefix("```json").removeprefix("```")
     text = text.removesuffix("```")
     return text.strip()
 
 
 def classify_job(job: JobPosting) -> dict:
-    message = client.messages.create(
-        model=MODEL,
-        max_tokens=300,
-        messages=[{"role": "user", "content": _build_classify_prompt(job)}],
-    )
-    raw_text = "".join(b.text for b in message.content if b.type == "text")
+    raw_text = llm_client.complete(_build_classify_prompt(job), max_tokens=300)
     cleaned = _clean_json_response(raw_text)
     try:
         return json.loads(cleaned)
@@ -87,7 +76,13 @@ def classify_job(job: JobPosting) -> dict:
 def classify_jobs(jobs: List[JobPosting], min_score: int = 50) -> List[JobPosting]:
     relevant = []
     for job in jobs:
-        result = classify_job(job)
+        try:
+            result = classify_job(job)
+        except Exception as e:
+            # un errore su un singolo annuncio (rate limit, timeout, chiave
+            # mancante...) non deve far perdere tutti gli altri annunci gia' raccolti
+            print(f"[relevance_filter] errore nel classificare '{job.title}' @ {job.company}: {e}")
+            continue
         if result.get("is_stage"):
             continue
         job.relevance_score = result.get("score", 0)
