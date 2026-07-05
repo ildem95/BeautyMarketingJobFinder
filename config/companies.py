@@ -20,8 +20,11 @@ ogni career site e controllando il pannello Network/Fetch delle devtools:
   risultati via JavaScript, per questo custom_llm.py ora usa un browser
   headless per leggerle (vedi commenti nel file).
 
-RVB LAB e Diego Dalla Palma Group sono stati rimossi su tua indicazione.
-Aggiunte MiiN Cosmetics e Kering, non erano nella lista originale.
+RVB LAB, Diego Dalla Palma Group, Innisfree, Laneige, Too Faced, Drunk
+Elephant e The Ordinary sono stati rimossi su tua indicazione (i primi due
+per scelta, gli altri cinque perche' verificato che non servono / sono
+duplicati di gruppi gia' in lista). Aggiunte MiiN Cosmetics e Kering, non
+erano nella lista originale.
 """
 
 COMPANIES = [
@@ -35,14 +38,14 @@ COMPANIES = [
     {
         "name": "L'Oreal",
         "connector": "custom_llm",
-        "careers_urls": ["https://careers.loreal.com/en_US/jobs/SearchJobs"],
+        "careers_urls": ["https://careers.loreal.com/it_IT/jobs/SearchJobs?3_110_3=18035&3_4_3=485894367,108,485894597,485894559"],
         "notes": "Piattaforma custom, non un ATS standard con API pubblica",
     },
     {
         "name": "Estee Lauder Companies",
         "connector": "custom_llm",
-        "careers_urls": ["https://jobs.elcompanies.com/estee-lauder-companies/jobs"],
-        "notes": "Piattaforma Eightfold.ai. Copre probabilmente anche Too Faced, The Ordinary/DECIEM",
+        "careers_urls": ["https://careers.elcompanies.com/careers?domain=elcompanies.com&start=0&location=Milano%2CIT-MI%2CItaly&pid=1168273055416&sort_by=distance&filter_distance=80&filter_include_remote=1&filter_department=Marketing"],
+        "notes": "URL corretto (careers.elcompanies.com - jobs.elcompanies.com non risolve, era sbagliato). Piattaforma Eightfold.ai. Copre anche Too Faced, The Ordinary/DECIEM, Dr.Jart+",
     },
 
     # --- VERIFICATE A MANO (dal documento con gli screenshot devtools) ---
@@ -163,17 +166,51 @@ COMPANIES = [
         "notes": "Aggiunta durante la ricognizione (non era nella lista originale). Filtro Italia + Communication & Marketing gia' impostato",
     },
 
-    # --- Ancora da verificare (non coperte nella ricognizione) ---
-    {"name": "Unilever (Dove, TRESemme, Simple...)", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "Revlon", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "e.l.f. Beauty", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "Puig", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "Inter Parfums", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "Innisfree", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma. Probabile gruppo Amorepacific"},
-    {"name": "Laneige", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma. Probabile gruppo Amorepacific"},
-    {"name": "Glossier", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "Too Faced", "connector": None, "careers_urls": [], "notes": "TODO: verificare se ha annunci separati da Estee Lauder Companies"},
-    {"name": "Rare Beauty", "connector": None, "careers_urls": [], "notes": "TODO: verificare piattaforma"},
-    {"name": "Drunk Elephant", "connector": None, "careers_urls": [], "notes": "TODO: verificare se ha annunci separati da Shiseido"},
-    {"name": "The Ordinary", "connector": None, "careers_urls": [], "notes": "TODO: verificare se ha annunci separati da Estee Lauder Companies / DECIEM"},
+    # --- Trovate con ricerca web (non richiedono verifica manuale delle devtools) ---
+    {
+        "name": "Unilever (Dove, TRESemme, Simple...)",
+        "connector": "workday",
+        "workday_tenant": "unilever",
+        "workday_site": "Unilever_Experienced_Professionals",
+        "workday_server": "wd3",
+        "workday_search_text": "Marketing",
+        "notes": "Trovato via ricerca web, non verificato con devtools: se restituisce 0 o errori, va controllato il tenant/site esatto aprendo il sito",
+    },
+    {
+        "name": "e.l.f. Beauty",
+        "connector": "lever",
+        "lever_slug": "elfbeauty",
+        "notes": "Trovato via ricerca web. Azienda USA, aspettati poche/nessuna posizione Italia ma qualche ruolo remoto potrebbe comparire",
+    },
+    {
+        "name": "Glossier",
+        "connector": "greenhouse",
+        "greenhouse_board_token": "glossier",
+        "notes": "Trovato via ricerca web. Azienda USA, stesso discorso di e.l.f. Beauty",
+    },
+    {
+        "name": "Revlon",
+        "connector": "greenhouse",
+        "greenhouse_board_token": "revloncorporate",
+        "notes": "Trovato via ricerca web (board 'revloncorporate'). Nota: la divisione hair tools di Revlon e' passata a Helen of Troy con career site separato, non coperto qui",
+    },
+    {
+        "name": "Puig",
+        "connector": "custom_llm",
+        "careers_urls": ["https://careers.puig.com/en/opportunities", "https://careers.puig.com/opportunities?q=brand+manager", "https://careers.puig.com/opportunities?q=&country=9888&workArea=9249", "https://careers.puig.com/opportunities?q=&country=9888&workArea=9258"],
+        "notes": "Trovato via ricerca web, piattaforma non identificata con certezza (probabile SuccessFactors), usa il fallback custom_llm. Copre probabilmente anche Charlotte Tilbury",
+    },
+    {
+        "name": "Inter Parfums",
+        "connector": "custom_llm",
+        "careers_urls": ["https://www.interparfumsinc.com/openpositions"],
+        "notes": "Trovato via ricerca web, sito custom (sembra Wix)",
+    },
+    {
+        "name": "Rare Beauty",
+        "connector": "custom_llm",
+        "careers_urls": ["https://careers.jobscore.com/careers/rarebeauty"],
+        "notes": "Trovato via ricerca web (piattaforma JobScore). Al momento della ricerca risultava senza posizioni aperte",
+    },
+
 ]
