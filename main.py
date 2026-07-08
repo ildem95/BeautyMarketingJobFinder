@@ -64,7 +64,7 @@ def _collect_one_company(company: dict) -> list:
 
     elif connector == "smartrecruiters":
         raw = smartrecruiters.fetch_smartrecruiters_jobs(company["smartrecruiters_id"])
-        return smartrecruiters.to_job_postings(raw, name)
+        return smartrecruiters.to_job_postings(raw, name, include_details=True)
 
     elif connector == "workable":
         raw = workable.fetch_workable_jobs(company["workable_account"])
@@ -79,7 +79,7 @@ def _collect_one_company(company: dict) -> list:
         raw = workday.fetch_workday_jobs(
             tenant=tenant, site=site, wd_server=wd_server, applied_facets=applied_facets, search_text=search_text
         )
-        return workday.to_job_postings(raw, name, tenant, site, wd_server)
+        return workday.to_job_postings(raw, name, tenant, site, wd_server, include_details=True)
 
     elif connector == "custom_llm":
         jobs = []
@@ -124,7 +124,7 @@ def main():
     jobs = dedup.deduplicate(jobs)
     print(f"  -> {len(jobs)} annunci unici")
 
-    print("Filtro di rilevanza con LLM...")
+    print("Filtro di rilevanza con pre-filtro locale + LLM...")
     jobs = relevance_filter.classify_jobs(jobs, min_score=50)
     print(f"  -> {len(jobs)} annunci rilevanti")
 
