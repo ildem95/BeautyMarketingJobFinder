@@ -15,6 +15,7 @@ variante solo per i tenant che ne hanno bisogno.
 """
 from typing import List
 
+from bs4 import BeautifulSoup
 import requests
 
 from shared.models import JobPosting
@@ -54,25 +55,75 @@ def fetch_workday_jobs(
     return all_jobs
 
 
+def fetch_workday_job_detail(
+    tenant: str,
+    site: str,
+    external_path: str,
+    wd_server: str = "wd1",
+) -> dict:
+    if not external_path:
+        return {}
+    base_url = f"https://{tenant}.{wd_server}.myworkdayjobs.com/wday/cxs/{tenant}/{site}"
+    resp = requests.get(f"{base_url}{external_path}", headers={"Accept": "application/json"}, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _clean_text(value) -> str:
+    if isinstance(value, list):
+        return "\n".join(_clean_text(item) for item in value if item)
+    if isinstance(value, dict):
+        return "\n".join(_clean_text(item) for item in value.values() if item)
+    if not isinstance(value, str):
+        return ""
+    return BeautifulSoup(value, "html.parser").get_text(" ", strip=True)
+
+
+def _extract_description(detail: dict) -> str:
+    info = detail.get("jobPostingInfo") or detail
+    parts = []
+    for key in (
+        "jobDescription",
+        "description",
+        "jobPostingDescription",
+        "qualifications",
+        "responsibilities",
+    ):
+        text = _clean_text(info.get(key))
+        if text:
+            parts.append(text)
+    return "\n\n".join(parts)
+
+
 def to_job_postings(
     raw_jobs: List[dict],
     company_name: str,
     tenant: str,
     site: str,
     wd_server: str = "wd1",
+    include_details: bool = False,
 ) -> List[JobPosting]:
     postings = []
     for j in raw_jobs:
         path = j.get("externalPath", "")
         url = f"https://{tenant}.{wd_server}.myworkdayjobs.com/en-US/{site}{path}"
+        detail = {}
+        if include_details and path:
+            try:
+                detail = fetch_workday_job_detail(tenant, site, path, wd_server)
+            except Exception as e:
+                print(f"[workday] dettaglio non disponibile per {path}: {e}")
+
+        info = detail.get("jobPostingInfo") or {}
         postings.append(
             JobPosting(
                 company=company_name,
-                title=j.get("title", ""),
-                location=j.get("locationsText") or j.get("primaryLocation") or "",
+                title=j.get("title") or info.get("title") or "",
+                location=j.get("locationsText") or j.get("primaryLocation") or info.get("location") or "",
                 url=url,
                 source="workday",
-                posted_date=j.get("postedOn"),
+                description=_extract_description(detail),
+                posted_date=j.get("postedOn") or info.get("postedOn"),
             )
         )
     return postings

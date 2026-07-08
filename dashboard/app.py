@@ -77,6 +77,11 @@ def save_status(job_id: str, new_status: str, jobs: list) -> None:
     st.cache_data.clear()
 
 
+def clean_location(value) -> str:
+    text = str(value or "").strip()
+    return text if text and text.lower() != "nan" else "Sede non indicata"
+
+
 st.title("💄 Annunci beauty & cosmetica")
 
 jobs = load_jobs()
@@ -85,8 +90,11 @@ if not jobs:
     st.stop()
 
 df = pd.DataFrame(jobs)
+if "location" not in df.columns:
+    df["location"] = ""
+df["location_label"] = df["location"].apply(clean_location)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     status_filter = st.multiselect(
         "Stato",
@@ -97,11 +105,15 @@ with col1:
 with col2:
     company_filter = st.multiselect("Azienda", options=sorted(df["company"].unique()))
 with col3:
-    min_score = st.slider("Punteggio minimo di rilevanza", 0, 100, 50)
+    location_filter = st.multiselect("Luogo", options=sorted(df["location_label"].unique()))
+with col4:
+    min_score = st.slider("Punteggio minimo", 0, 100, 50)
 
 filtered = df[df["status"].isin(status_filter)] if status_filter else df
 if company_filter:
     filtered = filtered[filtered["company"].isin(company_filter)]
+if location_filter:
+    filtered = filtered[filtered["location_label"].isin(location_filter)]
 if "relevance_score" in filtered.columns:
     filtered = filtered[filtered["relevance_score"].fillna(0) >= min_score]
 
@@ -113,9 +125,10 @@ for _, row in filtered.iterrows():
     with st.container(border=True):
         c1, c2 = st.columns([4, 1])
         with c1:
+            location = clean_location(row.get("location"))
             st.markdown(f"**{row['title']}** — {row['company']}")
             st.caption(
-                f"{row['location']} · fonte: {row.get('source', '?')} · "
+                f"📍 {location} · fonte: {row.get('source', '?')} · "
                 f"punteggio: {row.get('relevance_score', '?')}/100"
             )
             if row.get("relevance_reason"):

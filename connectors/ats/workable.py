@@ -20,6 +20,7 @@ risulta vuoto, guardiamo insieme la risposta JSON grezza e sistemiamo.
 """
 from typing import List
 
+from bs4 import BeautifulSoup
 import requests
 
 from shared.models import JobPosting
@@ -50,6 +51,31 @@ def _format_location(location) -> str:
     return ""
 
 
+def _clean_text(value) -> str:
+    if isinstance(value, list):
+        return "\n".join(_clean_text(item) for item in value if item)
+    if isinstance(value, dict):
+        return "\n".join(_clean_text(item) for item in value.values() if item)
+    if not isinstance(value, str):
+        return ""
+    return BeautifulSoup(value, "html.parser").get_text(" ", strip=True)
+
+
+def _extract_description(job: dict) -> str:
+    for key in (
+        "description",
+        "description_html",
+        "full_description",
+        "job_description",
+        "requirements",
+        "benefits",
+    ):
+        description = _clean_text(job.get(key))
+        if description:
+            return description
+    return ""
+
+
 def to_job_postings(raw_jobs: List[dict], company_name: str) -> List[JobPosting]:
     postings = []
     for j in raw_jobs:
@@ -63,6 +89,7 @@ def to_job_postings(raw_jobs: List[dict], company_name: str) -> List[JobPosting]
                 location=location_str,
                 url=j.get("url") or j.get("shortlink", ""),
                 source="workable",
+                description=_extract_description(j),
                 contract_type=j.get("employment_type") or j.get("department"),
                 posted_date=j.get("published_on") or j.get("created_at"),
             )
