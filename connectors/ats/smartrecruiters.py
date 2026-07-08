@@ -91,24 +91,37 @@ def _extract_description(job: dict) -> str:
     return "\n\n".join(unique_parts)
 
 
-def _location_to_string(location: dict) -> str:
-    return ", ".join(
-        filter(None, [location.get("city"), location.get("region"), location.get("country")])
-    )
+def _location_to_string(location) -> str:
+    if isinstance(location, dict):
+        return ", ".join(
+            filter(None, [location.get("city"), location.get("region"), location.get("country")])
+        )
+    if isinstance(location, str):
+        return location
+    return ""
+
+
+def _posting_url(job: dict, company_identifier: str, posting_id: str) -> str:
+    for key in ("applyUrl", "url", "ref"):
+        value = job.get(key)
+        if isinstance(value, str) and value.startswith("http"):
+            return value
+    return f"https://jobs.smartrecruiters.com/{company_identifier}/{posting_id}"
 
 
 def to_job_postings(raw_jobs: List[dict], company_name: str, include_details: bool = False) -> List[JobPosting]:
     postings = []
     for j in raw_jobs:
         company_identifier = (j.get("company") or {}).get("identifier", "")
+        posting_id = j.get("id", "")
         job_data = j
-        if include_details and company_identifier and j.get("id"):
+        if include_details and company_identifier and posting_id:
             try:
-                detail = fetch_posting_detail(company_identifier, j["id"])
+                detail = fetch_posting_detail(company_identifier, posting_id)
                 if detail:
                     job_data = {**j, **detail}
             except Exception as e:
-                print(f"[smartrecruiters] dettaglio non disponibile per {j.get('id')}: {e}")
+                print(f"[smartrecruiters] dettaglio non disponibile per {posting_id}: {e}")
 
         location = job_data.get("location") or j.get("location") or {}
         postings.append(
@@ -116,7 +129,7 @@ def to_job_postings(raw_jobs: List[dict], company_name: str, include_details: bo
                 company=company_name,
                 title=job_data.get("name") or j.get("name", ""),
                 location=_location_to_string(location),
-                url=job_data.get("ref") or f"https://jobs.smartrecruiters.com/{company_identifier}/{j.get('id', '')}",
+                url=_posting_url(job_data, company_identifier, posting_id),
                 source="smartrecruiters",
                 description=_extract_description(job_data),
                 posted_date=job_data.get("releasedDate") or j.get("releasedDate"),
