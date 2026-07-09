@@ -3,7 +3,7 @@ name: Aggiorna annunci beauty
 on:
   schedule:
     # lunedi' e giovedi' alle 7:00 UTC (8:00/9:00 ora italiana a seconda dell'ora legale)
-    - cron: "0 7 * * 1,4"
+    - cron: "0 7 * * 1,2,3,4,5"
   workflow_dispatch: {}  # permette di lanciarlo manualmente da GitHub
 
 permissions:
