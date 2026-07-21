@@ -340,7 +340,7 @@
     "posted_date": "2026-06-30T17:56:34Z",
     "id": "29f5a191da6c1ca3",
     "relevance_score": 55,
-    "relevance_reason": "Il ruolo è più focalizzato sulla gestione account e vendite B2B, non specificamente sul brand management nel settore beauty",
+    "relevance_reason": "Ruolo ibrido tra account management e brand specialist, location a Milano ma non puro marketing/brand",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -489,8 +489,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "1e35b0dd284a6733",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo Brand Manager in azienda beauty (Coty) molto pertinente; mancano dettagli su sede e contratto, ma nessuna indicazione di stage o posizione non marketing.",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Brand Manager nel settore beauty, ma la sede non è specificata, quindi l'allineamento geografico è incerto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -984,8 +984,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "1a2e62b0e1278d3d",
-    "relevance_score": 88,
-    "relevance_reason": "Posizione in linea con il profilo, sede adeguata e ruolo marketing pertinente",
+    "relevance_score": 90,
+    "relevance_reason": "Ruolo di Category Manager nel settore beauty a Milano, perfettamente in linea con le competenze di brand/marketing della candidata e senza requisiti senior o stage.",
     "first_seen": "2026-07-14T09:26:40.960261+00:00",
     "status": "nuovo"
   },
@@ -1089,8 +1089,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "1e54cb809667c415",
-    "relevance_score": 95,
-    "relevance_reason": "Ruolo di Brand Manager nel settore cosmetico a Milano, richiede 3-5 anni di esperienza in linea con il profilo della candidata",
+    "relevance_score": 90,
+    "relevance_reason": "Ruolo di Brand Manager nel settore cosmetico a Milano, richieste di 3-5 anni di esperienza in linea con il profilo, senza elementi di stage o seniorità eccessiva",
     "first_seen": "2026-07-16T09:34:26.996597+00:00",
     "status": "nuovo"
   },
@@ -1302,6 +1302,21 @@
     "relevance_score": 90,
     "relevance_reason": "Ruolo marketing/brand a Milano, richiede 2-3 anni di esperienza, in linea con il profilo",
     "first_seen": "2026-07-20T10:16:40.734270+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Amazon EU SARL  - D68",
+    "title": "Associate Account Manager, Amazon Vendor Services - Protected categories (L. 68/99)",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5802197727?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "This position is preferably intended for candidates belonging to Protected Categories with certification as beneficiary law 68/99 Art.1 (employment of people with disability). At Amazon we’re on the lookout for the curious, those who think big and accept challenges, willing to come build the future with us. AVS is a paid B2B service that aims at helping strategic brands partner with Amazon to grow their business. As an Associate Account Manager (internally referred to as Brand Specialist), you …",
+    "contract_type": "full_time",
+    "posted_date": "2026-07-16T06:29:15Z",
+    "id": "7a9ea5378c549ec2",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo ibrido tra account e brand, non strettamente marketing tradizionale",
+    "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   }
 ]
