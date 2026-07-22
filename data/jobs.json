@@ -324,8 +324,8 @@
     "contract_type": null,
     "posted_date": "2026-06-17T07:22:57Z",
     "id": "846816c5d1c8a221",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo di Brand Retail Activation Specialist in ambito beauty a Milano, perfettamente in linea con le competenze di brand/marketing della candidata e senza requisiti seniori o di stage.",
+    "relevance_score": 90,
+    "relevance_reason": "Ruolo marketing/brand nel settore beauty, a Milano, adeguato al profilo junior della candidata",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -459,8 +459,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "f9c4b7a32b043d3a",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo pertinente di Brand Manager in settore beauty, ma manca la conferma della sede a Milano",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Brand Manager nel settore beauty, pertinente al profilo; sede non specificata ma non indicata fuori Milano, quindi accettabile",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di marketing nel settore beauty, coerente con l'esperienza, ma la sede non è specificata",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di marketing in azienda beauty (Coty), ma mancano informazioni su sede e livello di seniority",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -490,7 +490,7 @@
     "posted_date": null,
     "id": "1e35b0dd284a6733",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager nel settore beauty, ma la sede non è specificata, quindi l'allineamento geografico è incerto",
+    "relevance_reason": "Posizione in linea con il profilo",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -505,7 +505,7 @@
     "posted_date": null,
     "id": "fb0e12c535eec5b9",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo pertinente di Assistant Brand Manager, ma la sede non è indicata quindi l'allineamento geografico con Milano è incerto",
+    "relevance_reason": "Ruolo in linea con il profilo ma mancano informazioni sulla sede, quindi incerta la corrispondenza geografica",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -625,7 +625,7 @@
     "posted_date": null,
     "id": "d1a98d75e5fbcf36",
     "relevance_score": 95,
-    "relevance_reason": "Ruolo junior di product/trade marketing a Milano, perfettamente in linea con l'esperienza e gli obiettivi della candidata",
+    "relevance_reason": "Ruolo junior di Product/Trade Marketing nel settore beauty, a Milano, in linea con l'esperienza di 3+ anni della candidata",
     "first_seen": "2026-07-06T12:18:36.829477+00:00",
     "status": "nuovo"
   },
@@ -639,8 +639,8 @@
     "contract_type": null,
     "posted_date": "Jun 24, 2026",
     "id": "981731c731050e83",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo di Junior Product Manager in ambito beauty a Milano, in linea con il profilo e non è uno stage",
+    "relevance_score": 95,
+    "relevance_reason": "Posizione junior in ambito beauty a Milano, perfettamente in linea con l'esperienza e le ambizioni della candidata.",
     "first_seen": "2026-07-06T12:18:36.829477+00:00",
     "status": "nuovo"
   },
@@ -1285,7 +1285,7 @@
     "posted_date": null,
     "id": "9214797e55823145",
     "relevance_score": 90,
-    "relevance_reason": "Ruolo di Product Marketing Manager nel settore cosmetico, in linea con l'esperienza di 3+ anni della candidata e con sede a Milano, senza requisiti seniori o di stage",
+    "relevance_reason": "Ruolo di Product Marketing Manager nel settore cosmetico a Milano, in linea con i 3+ anni di esperienza in brand/marketing della candidata e le sue ambizioni nel beauty.",
     "first_seen": "2026-07-20T10:16:40.734270+00:00",
     "status": "nuovo"
   },
@@ -1317,6 +1317,21 @@
     "relevance_score": 60,
     "relevance_reason": "Ruolo ibrido tra account e brand, non strettamente marketing tradizionale",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "AstraZeneca",
+    "title": "Jr Brand Manager Biologics (Maternity Leave)",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5809499305?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "At AstraZeneca we believe in the potential of our people and you’ll develop beyond what you thought possible. We make the most of your skills and passion by actively supporting you to see what you can achieve no matter where you start with us. As a Junior Brand Manager, you will play a pivotal role in channelling our scientific capabilities to make a positive impact on changing patients’ lives. At AstraZeneca, we are committed to advancing the science to deliver life-changing medicines to patie…",
+    "contract_type": null,
+    "posted_date": "2026-07-21T17:31:26Z",
+    "id": "b84379701f421886",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Junior Brand Manager in ambito pharma, non nel settore beauty richiesto",
+    "first_seen": "2026-07-22T09:54:57.690787+00:00",
     "status": "nuovo"
   }
 ]
