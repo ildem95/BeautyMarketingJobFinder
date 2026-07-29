@@ -490,7 +490,7 @@
     "posted_date": null,
     "id": "1e35b0dd284a6733",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in settore beauty è in linea, ma mancano informazioni su sede e tipologia di contratto, limitando la valutazione di pertinenza geografica.",
+    "relevance_reason": "Il ruolo di Brand Manager è in linea con il profilo, ma mancano dettagli sulla sede e sul tipo di contratto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -505,7 +505,7 @@
     "posted_date": null,
     "id": "fb0e12c535eec5b9",
     "relevance_score": 60,
-    "relevance_reason": "Ruolo pertinente (Assistant Brand Manager) ma manca la sede e i dettagli, quindi incerto per la preferenza di Milano",
+    "relevance_reason": "Ruolo in linea con il profilo (Assistant Brand Manager), ma la sede non è specificata, quindi la pertinenza geografica resta incerta",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -640,7 +640,7 @@
     "posted_date": "Jul 23, 2026",
     "id": "981731c731050e83",
     "relevance_score": 85,
-    "relevance_reason": "Ruolo junior di product/brand management in linea con l'esperienza, sede a Milano e non è uno stage",
+    "relevance_reason": "Ruolo junior di product manager nel settore beauty a Milano, allineato all'esperienza e alle preferenze della candidata",
     "first_seen": "2026-07-06T12:18:36.829477+00:00",
     "status": "nuovo"
   },
@@ -969,8 +969,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "e39b9b04ffbcf146",
-    "relevance_score": 90,
-    "relevance_reason": "Ruolo di Brand Manager cosmetico con requisiti di 3+ anni, sede in provincia di Milano, perfettamente in linea con il profilo della candidata",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Brand Manager nel settore cosmetico, in linea con i 3+ anni di esperienza e con la sede nella provincia di Milano, non è uno stage",
     "first_seen": "2026-07-14T09:26:40.960261+00:00",
     "status": "nuovo"
   },
@@ -1434,8 +1434,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "084e28d1a68f9266",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo junior in categoria prodotto beauty, coerente con esperienza e ambito richiesto, ma manca la sede e i dettagli contrattuali",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo pertinente a brand/product management junior, ma la sede non è indicata",
     "first_seen": "2026-07-24T09:42:25.454674+00:00",
     "status": "nuovo"
   },
@@ -1497,6 +1497,36 @@
     "relevance_score": 85,
     "relevance_reason": "Ruolo Brand Specialist in ambito e‑commerce a Milano, perfettamente in linea con le competenze di brand manager della candidata",
     "first_seen": "2026-07-28T10:10:22.610739+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Amazon EU SARL ",
+    "title": "Brand Specialist",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5818474688?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Bachelor’s/Master’s degree or equivalent experience - Fluent written and verbal communication in Italian and English (minimum C1 level) - language knowledge will be tested in the process - Minimum of 12 months professional experience after graduation in Sales, Buying, Project Management, Supply Chain, Marketing or Consulting. - Knowledge in MS Office programs (e.g. Excel, PowerPoint) At Amazon we’re on the lookout for the curious, those who think big and accept challenges, willing to come build…",
+    "contract_type": null,
+    "posted_date": "2026-07-28T17:35:58Z",
+    "id": "886e56edf9e9623d",
+    "relevance_score": 75,
+    "relevance_reason": "Ruolo di Brand Specialist in linea con il profilo e sede a Milano, ma l'azienda non è nel settore beauty richiesto",
+    "first_seen": "2026-07-29T10:02:11.427367+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Amazon EU SARL  - D68",
+    "title": "Account Manager, Amazon Vendor Services - Protected categories (L. 68/99)",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5802197726?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "This position is preferably intended for candidates belonging to Protected Categories with certification as beneficiary law 68/99 Art.1 (employment of people with disability). AVS is a paid B2B service that helps strategically grow complex brands on Amazon. As an Account Manager (internally referred to as Senior Brand Specialist), you will own and drive the strategic relationship with a portfolio of complex vendor accounts operating across multiple EU marketplaces. You will navigate the unique …",
+    "contract_type": "full_time",
+    "posted_date": "2026-07-16T06:29:15Z",
+    "id": "798afc2b85558eef",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo pertinente di brand management a Milano, ma di livello senior non ideale per 3 anni di esperienza",
+    "first_seen": "2026-07-29T10:02:11.427367+00:00",
     "status": "nuovo"
   }
 ]
