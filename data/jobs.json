@@ -429,8 +429,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "7384308933c1cb7f",
-    "relevance_score": 60,
-    "relevance_reason": "Il ruolo di Brand Manager è in linea con il profilo, ma la sede non è indicata, quindi non è chiaro se soddisfi la preferenza per Milano/ibrido",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo è Brand Manager in un'azienda beauty (Coty), ma la sede non è specificata, quindi non è garantita la vicinanza a Milano",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -459,8 +459,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "f9c4b7a32b043d3a",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo pertinente ma sede e dettagli mancanti",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo, ma mancano informazioni sulla sede e sui dettagli contrattuali",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -699,8 +699,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-06-07T22:54:41Z",
     "id": "c4b6c22901581e64",
-    "relevance_score": 55,
-    "relevance_reason": "Il ruolo è marketing a Milano, ma il settore auto non corrisponde all'interesse per il beauty",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di marketing a Milano ma settore automotive non in linea con ambito beauty richiesto",
     "first_seen": "2026-07-08T15:20:02.428981+00:00",
     "status": "nuovo"
   },
@@ -1677,6 +1677,21 @@
     "relevance_score": 80,
     "relevance_reason": "Ruolo di Marketing Coordinator a Milano, pertinente al marketing/brand, ma livello leggermente junior rispetto a Brand Manager desiderato",
     "first_seen": "2026-08-03T11:06:02.690255+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Collistar",
+    "title": "Junior International Product Manager HC",
+    "location": "",
+    "url": "https://jobs.boltongroup.net/job/Milano-Junior-International-Product-Manager-HC/1419887833/",
+    "source": "custom_llm",
+    "description": "",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "d984a491040d5797",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo coerente con il profilo di Brand/Product Manager, ma mancano informazioni sulla sede e sulla descrizione",
+    "first_seen": "2026-08-04T10:04:34.857867+00:00",
     "status": "nuovo"
   }
 ]
