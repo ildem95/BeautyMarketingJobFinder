@@ -294,8 +294,8 @@
     "contract_type": "permanent",
     "posted_date": "2026-07-02T07:50:59Z",
     "id": "cb01b30fb602c7ec",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Marketing Manager in linea con le competenze, sede a Milano, ma settore fashion invece di beauty richiesto dalla candidata",
+    "relevance_score": 55,
+    "relevance_reason": "Il ruolo è brand manager nel settore moda lusso, non nel beauty richiesto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 70,
-    "relevance_reason": "Il ruolo è di Marketing con focus sul brand (Customer Marketing Manager) e la candidata ha esperienza pertinente; manca la sede, ma non è indicato uno stage.",
+    "relevance_score": 75,
+    "relevance_reason": "Ruolo di marketing pertinente ma sede non specificata, incerta compatibilità geografica",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -504,8 +504,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "fb0e12c535eec5b9",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo in linea con le aspirazioni e senza indicazioni di stage, ma la sede non è specificata",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo pertinente ma sede non specificata, incerta per Milano",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -669,8 +669,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "5101b2beb85d8200",
-    "relevance_score": 80,
-    "relevance_reason": "Il ruolo di Trade Marketing Specialist è pertinente al profilo di brand/marketing della candidata e non è uno stage, ma la sede non è specificata, il che limita la valutazione totale.",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di Trade Marketing Specialist in linea con il profilo, ma la sede non è specificata",
     "first_seen": "2026-07-07T22:26:54.042198+00:00",
     "status": "nuovo"
   },
@@ -1902,6 +1902,21 @@
     "relevance_score": 70,
     "relevance_reason": "Ruolo pertinente al settore beauty e alla sede, ma combina forti responsabilità di vendita con il marketing, più ampio rispetto al profilo brand‑manager della candidata",
     "first_seen": "2026-08-12T08:47:20.542073+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Freia Farmaceutici",
+    "title": "Brand Manager Dermatologia",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5838498091?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "BRAND MANAGER DERMATOLOGIA - Rif. DE25: - Elaborazione e realizzazione di adeguate attività di comunicazione rivolte al settore dermatologico ed oncologico - Gestione e sviluppo della linea di prodotti assegnata, monitorando la concorrenza - Collaborazione nello sviluppo di nuovi prodotti - Definizione e gestione del budget annuale - Sviluppo del materiale di supporto alla rete di informazione medica - Definizione e gestione dei percorsi di formazione alla rete esterna - Partecipazione a congre…",
+    "contract_type": null,
+    "posted_date": "2026-08-12T17:33:28Z",
+    "id": "bef163d348a81b3f",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Brand Manager a Milano, ma nel settore dermatologico farmaceutico, non strettamente il beauty cosmetico desiderato",
+    "first_seen": "2026-08-13T08:51:41.911052+00:00",
     "status": "nuovo"
   }
 ]
