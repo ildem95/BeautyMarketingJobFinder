@@ -459,8 +459,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "f9c4b7a32b043d3a",
-    "relevance_score": 65,
-    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo, ma la sede non è specificata, quindi l'adeguatezza geografica rimane incerta",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo e senza indicazioni di stage, ma la sede non è specificata",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -504,8 +504,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "fb0e12c535eec5b9",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo pertinente ma sede non specificata, incerta per Milano",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo pertinente di Assistant Brand Manager in linea con il profilo, nessun indizio di stage e sede non specificata",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -1434,8 +1434,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "084e28d1a68f9266",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo di Category Junior Product Manager nel settore beauty in linea con l'esperienza e le ambizioni, livello junior adatto, ma mancano informazioni su sede e tipo di contratto.",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo junior in ambito beauty coerente con l'esperienza, ma la sede non è specificata",
     "first_seen": "2026-07-24T09:42:25.454674+00:00",
     "status": "nuovo"
   },
@@ -1689,8 +1689,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d984a491040d5797",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo coerente con il profilo di Brand/Product Manager, ma mancano informazioni sulla sede e sulla descrizione",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo junior in product management nel settore beauty, in linea con l'esperienza e le ambizioni della candidata, sede non specificata ma presumibilmente compatibile",
     "first_seen": "2026-08-04T10:04:34.857867+00:00",
     "status": "nuovo"
   },
@@ -1917,6 +1917,36 @@
     "relevance_score": 70,
     "relevance_reason": "Ruolo di Brand Manager a Milano, ma nel settore dermatologico farmaceutico, non strettamente il beauty cosmetico desiderato",
     "first_seen": "2026-08-13T08:51:41.911052+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Danone",
+    "title": "Brand Manager - Temporary Contract 12 Months",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5840468990?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "About the job For our MARKETING TEAM in Milan we are looking as of now for a Brand Manager - 12 MONTHS TEMPORARY CONTRACT You’ll have the opportunity to build strong relationship and collaboration with all company’s departments and to actively contribute to the achievements of your team. About the Job As Brand Manager your key responsibilities are: - Carry out critical analysis in order to understand the consumers’ and shoppers behaviors as well as business performance (consumer insights, sell-…",
+    "contract_type": null,
+    "posted_date": "2026-08-13T17:39:48Z",
+    "id": "7288a46de4b244a8",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Brand Manager in linea con le competenze e a Milano, ma l'azienda è nel settore alimentare non beauty, e il contratto è temporaneo a 12 mesi",
+    "first_seen": "2026-08-14T08:49:54.791022+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Coty",
+    "title": "Product Manager Make-Up",
+    "location": "",
+    "url": "https://careers.coty.com/job/Paris-Product-Manager-Make-Up-J-75002/1424720633/",
+    "source": "custom_llm",
+    "description": "",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "a6c95df5c679c2bf",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di Product Manager nel settore beauty, in linea con il profilo, ma la sede non è specificata, quindi incerta per la preferenza Milano.",
+    "first_seen": "2026-08-14T08:49:54.791022+00:00",
     "status": "nuovo"
   }
 ]
