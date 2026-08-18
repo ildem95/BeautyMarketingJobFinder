@@ -430,7 +430,7 @@
     "posted_date": null,
     "id": "7384308933c1cb7f",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo, ma la sede non è specificata, quindi l'affinità geografica è incerta",
+    "relevance_reason": "Il ruolo di Brand Manager è in linea con il profilo, ma mancano informazioni sulla sede e sul tipo di contratto, riducendo la pertinenza",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -459,8 +459,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "f9c4b7a32b043d3a",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo perfettamente in linea con Brand Manager, ma mancano dettagli su sede e modalità di lavoro",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo pertinente ma la sede è incerta",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo di marketing pertinente ma sede non specificata, incerta compatibilità geografica",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di marketing pertinente, ma mancano informazioni sulla sede e sul livello senior",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -504,8 +504,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "fb0e12c535eec5b9",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo pertinente di Assistant Brand Manager in linea con il profilo, nessun indizio di stage e sede non specificata",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo coerente con il profilo e settore beauty, ma mancano dettagli su sede e contratto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -1977,6 +1977,21 @@
     "relevance_score": 70,
     "relevance_reason": "Ruolo di Brand Manager a Milano, ma il settore è industriale/adhesivi, non corrisponde all'interesse per il beauty",
     "first_seen": "2026-08-17T08:12:10.587406+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Deliveroo",
+    "title": "Content & Localisation Marketing Specialist",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5841987647?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "We're looking for a marketer to join the Deliveroo Italy marketing team, who will report to the Brand & Media Manager, to develop and execute Deliveroo's marketing strategy with great and effective writing and content focus. This role will work closely with local and global marketing and localisation teams, our external creative agencies and internal creative studio to support delivering best-in-class marketing strategy, creative brand campaigns and activations that deliver against our marketin…",
+    "contract_type": null,
+    "posted_date": "2026-08-14T17:39:00Z",
+    "id": "bbc7f7509c7ace42",
+    "relevance_score": 55,
+    "relevance_reason": "Ruolo di marketing in linea e sede a Milano, ma non nel settore beauty desiderato dalla candidata",
+    "first_seen": "2026-08-18T08:12:26.175422+00:00",
     "status": "nuovo"
   }
 ]
