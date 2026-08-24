@@ -429,8 +429,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "7384308933c1cb7f",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo Brand Manager in azienda beauty rilevante, ma la sede non è specificata",
+    "relevance_score": 75,
+    "relevance_reason": "Ruolo in linea con il profilo, ma mancano informazioni su sede e tipo di contratto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -504,8 +504,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "fb0e12c535eec5b9",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo in linea e settore beauty, ma sede non specificata",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Assistant Brand Manager in ambito beauty è in linea con l'esperienza, ma mancano informazioni su sede e contratto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -609,8 +609,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "5ed1a2e497fdbf37",
-    "relevance_score": 80,
-    "relevance_reason": "Buona corrispondenza, ruolo ibrido brand‑sales a Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo è in ambito beauty a Milano e combina brand e vendita, ma richiede 4‑5 anni di esperienza e un focus forte sulla GDO, leggermente più senior rispetto ai 3 anni della candidata.",
     "first_seen": "2026-07-06T12:18:36.829477+00:00",
     "status": "nuovo"
   },
@@ -1315,7 +1315,7 @@
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
     "relevance_score": 75,
-    "relevance_reason": "Ruolo di Brand Specialist/Account Manager su Amazon, pertinente al marketing e branding ma non specifico al settore beauty, quindi abbastanza adatto",
+    "relevance_reason": "Ruolo di Brand Specialist in ambito Amazon Vendor Services, sede a Milano, full‑time e non è uno stage; però l'orientamento è più verso account management/b2b che puro brand marketing.",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
@@ -1585,7 +1585,7 @@
     "posted_date": null,
     "id": "22b42755e4b83bbd",
     "relevance_score": 75,
-    "relevance_reason": "Ruolo di Product Innovation Specialist a Milano, rilevante per il profilo di product/brand manager, ma più focalizzato su sviluppo prodotto che su puro brand management",
+    "relevance_reason": "Ruolo di Product Innovation Specialist nel settore beauty a Milano, coerente con l'esperienza di brand manager e con gli obiettivi di product/brand management della candidata, ma non è un ruolo puramente di brand manager",
     "first_seen": "2026-07-30T09:56:08.014838+00:00",
     "status": "nuovo"
   },
@@ -2082,6 +2082,21 @@
     "relevance_score": 75,
     "relevance_reason": "Il ruolo è nel trade marketing di una categoria beauty (fragrance) in un'azienda del settore, ma la sede non è specificata e potrebbe non corrispondere alla preferenza per Milano",
     "first_seen": "2026-08-21T08:02:32.352338+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "l'Oréal",
+    "title": "Product Manager - L'oréal Dermatological Beauty",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5852642586?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "We're not just building brands, we're shaping how the world experiences beauty (and it takes a lot of cool jobs to do it). Intrigued? Keep reading, this might be the opportunity you've been searching for. A Day in the Life As a Product Manager at L'Oréal Dermatological Beauty, you'll be at the forefront of developing and executing strategies for a dynamic portfolio of dermatological brands. Reporting to the Brand Business Leader, you will play a key role in driving product innovation and growth…",
+    "contract_type": null,
+    "posted_date": "2026-08-22T17:41:59Z",
+    "id": "49a3d2e8caf7355a",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Product Manager in ambito beauty a Milano, in linea con esperienza e ambizioni, non è uno stage né posizione senior",
+    "first_seen": "2026-08-24T08:12:57.714412+00:00",
     "status": "nuovo"
   }
 ]
