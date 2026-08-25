@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 65,
-    "relevance_reason": "Ruolo di marketing/brand in linea, ma la sede non è specificata e potrebbe non essere a Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Customer Marketing Manager rilevante per il profilo, ma la sede non è specificata, quindi l'allineamento geografico è incerto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -1014,8 +1014,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-06-15T16:41:24Z",
     "id": "a5788750e72e9869",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo di Brand Specialist in ambito e‑commerce, full‑time a Milano, in linea con le competenze ma non specifico al settore beauty",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Brand Specialist/Account Manager in ambito e‑commerce, Milano, richiesto per profilo junior con esperienza in brand management, quindi in linea con le aspettative della candidata.",
     "first_seen": "2026-07-15T09:29:50.204273+00:00",
     "status": "nuovo"
   },
@@ -1074,8 +1074,8 @@
     "contract_type": null,
     "posted_date": "2026-05-06T07:23:29Z",
     "id": "3f4183bdd715dd00",
-    "relevance_score": 55,
-    "relevance_reason": "Il ruolo è Product Development Specialist in un private label OTC, collegato alla Brand Manager e quindi rilevante per brand/product, ma il settore farmaceutico non è tipicamente beauty; la sede è a Milano, quindi la posizione è adeguata.",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di Product Development Specialist in ambito OTC è legato al marketing/prodotto e la sede è a Milano, ma il settore farmaceutico non è strettamente quello beauty desiderato",
     "first_seen": "2026-07-16T09:34:26.996597+00:00",
     "status": "nuovo"
   },
