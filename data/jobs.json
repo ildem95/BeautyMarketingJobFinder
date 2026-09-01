@@ -429,8 +429,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "7384308933c1cb7f",
-    "relevance_score": 55,
-    "relevance_reason": "Ruolo pertinente ma mancano informazioni su sede e descrizione dettagliata",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo coerente con brand manager, ma la sede non è indicata, quindi l'allineamento geografico con Milano resta incerto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -669,8 +669,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "5101b2beb85d8200",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Trade Marketing pertinente al marketing, ma la sede non è indicata, riducendo la pertinenza geografica",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo è di Trade Marketing, rientra nella categoria marketing/brand, e la sede non è indicata ma non esclude Milano o lavoro ibrido",
     "first_seen": "2026-07-07T22:26:54.042198+00:00",
     "status": "nuovo"
   },
@@ -2154,8 +2154,8 @@
     "contract_type": "permanent",
     "posted_date": "2026-07-24T04:50:43Z",
     "id": "53e586483ce5b49c",
-    "relevance_score": 90,
-    "relevance_reason": "Posizione in linea con il profilo, ruolo marketing a Milano",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Brand Marketing Manager a Milano, in linea con esperienza e ambizioni della candidata, pur non essendo specificamente nel settore beauty",
     "first_seen": "2026-08-27T18:33:08.425656+00:00",
     "status": "nuovo"
   },
@@ -2274,8 +2274,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-08-21T17:28:45Z",
     "id": "9763a6372667ada6",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Manager in linea, ma settore home décor non corrisponde all'interesse per il beauty",
+    "relevance_score": 85,
+    "relevance_reason": "Posizione in linea con il profilo, ruolo Brand Manager a Milano, senza requisiti senior e non è uno stage",
     "first_seen": "2026-08-31T15:11:28.829485+00:00",
     "status": "nuovo"
   },
