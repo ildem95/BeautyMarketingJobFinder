@@ -429,8 +429,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "7384308933c1cb7f",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo coerente con brand manager, ma la sede non è indicata, quindi l'allineamento geografico con Milano resta incerto",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Brand Manager in azienda beauty pertinente al profilo, ma mancano dettagli su sede e descrizione",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -669,8 +669,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "5101b2beb85d8200",
-    "relevance_score": 70,
-    "relevance_reason": "Il ruolo è di Trade Marketing, rientra nella categoria marketing/brand, e la sede non è indicata ma non esclude Milano o lavoro ibrido",
+    "relevance_score": 55,
+    "relevance_reason": "ruolo di marketing pertinente ma mancano informazioni su sede, contratto e descrizione",
     "first_seen": "2026-07-07T22:26:54.042198+00:00",
     "status": "nuovo"
   },
@@ -1314,8 +1314,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo di Brand Specialist in ambito Amazon Vendor Services, sede a Milano, full‑time e non è uno stage; però l'orientamento è più verso account management/b2b che puro brand marketing.",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Brand Specialist in linea con profilo, sede Milano, ma non specifico al settore beauty e con seniorità più junior",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
@@ -1689,8 +1689,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d984a491040d5797",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo junior in product management nel settore beauty, ma la sede non è specificata e non è confermata la vicinanza a Milano",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo Junior International Product Manager in ambito beauty, in linea con l'esperienza di brand manager; livello adeguato, ma mancano informazioni su sede e contratto",
     "first_seen": "2026-08-04T10:04:34.857867+00:00",
     "status": "nuovo"
   },
@@ -2139,8 +2139,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "99a4fa4080bef7b4",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo coerente ma sede incerta",
+    "relevance_score": 55,
+    "relevance_reason": "Ruolo pertinente di Category Manager, ma mancano informazioni sulla sede e sulla descrizione, limitando la valutazione di pertinenza",
     "first_seen": "2026-08-26T08:08:14.317418+00:00",
     "status": "nuovo"
   },
@@ -2292,6 +2292,21 @@
     "relevance_score": 90,
     "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, richiede 3-5 anni di esperienza marketing, in linea con il profilo della candidata; la sede è appropriata e non è uno stage.",
     "first_seen": "2026-08-31T15:11:28.829485+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Opella Healthcare Italy",
+    "title": "Brand Lead Consumer Healthcare - Milan",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5838471577?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "You’ve built experience, now use it where bold ideas meet real impact. At Opella, we’re challenging how self-care works for millions of people and need leaders and experts ready to shape what’s next. As a Brand Lead, you’ll bring your skill, your curiosity and your drive to make health simpler, smarter and more human. About the job As a Brand Lead, you will own the strategy, growth and execution of one or more of Opella’s leading brands in Italy. You will combine strategic thinking with hands-o…",
+    "contract_type": "full_time",
+    "posted_date": "2026-08-12T17:24:48Z",
+    "id": "739fedcb9ed15507",
+    "relevance_score": 60,
+    "relevance_reason": "Il ruolo è di Brand Lead in ambito marketing con sede a Milano, quindi pertinente, ma il settore Consumer Healthcare non è quello beauty desiderato e il livello senior potrebbe superare i 3 anni di esperienza della candidata",
+    "first_seen": "2026-09-02T12:23:11.344565+00:00",
     "status": "nuovo"
   }
 ]
