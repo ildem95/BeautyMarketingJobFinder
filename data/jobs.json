@@ -430,7 +430,7 @@
     "posted_date": null,
     "id": "7384308933c1cb7f",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in azienda beauty pertinente al profilo, ma mancano dettagli su sede e descrizione",
+    "relevance_reason": "Ruolo pertinente ma mancano informazioni su sede e modalità di lavoro",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di marketing in linea, ma sede non specificata",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di Customer Marketing Manager pertinente al profilo, ma mancano informazioni su sede e dettagli contrattuali, limitando la valutazione",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -700,7 +700,7 @@
     "posted_date": "2026-06-07T22:54:41Z",
     "id": "c4b6c22901581e64",
     "relevance_score": 60,
-    "relevance_reason": "Ruolo di Marketing a Milano, ma settore automotive non allineato al desiderio di entrare nel beauty",
+    "relevance_reason": "Ruolo marketing a Milano, ma in ambito automotive non nel settore beauty desiderato",
     "first_seen": "2026-07-08T15:20:02.428981+00:00",
     "status": "nuovo"
   },
@@ -1689,8 +1689,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d984a491040d5797",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo Junior International Product Manager in ambito beauty, in linea con l'esperienza di brand manager; livello adeguato, ma mancano informazioni su sede e contratto",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo junior di Product Manager in ambito beauty, coerente con l'esperienza e le aspirazioni della candidata; sede non specificata ma presumibilmente in Italia, quindi compatibile con la preferenza per Milano",
     "first_seen": "2026-08-04T10:04:34.857867+00:00",
     "status": "nuovo"
   },
@@ -2259,8 +2259,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "3df144d17c9cf8be",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di Trade Marketing Manager in linea, ma sede non specificata",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Trade Marketing in azienda beauty, pertinente ma non focalizzato sul brand",
     "first_seen": "2026-08-28T19:37:37.627161+00:00",
     "status": "nuovo"
   },
