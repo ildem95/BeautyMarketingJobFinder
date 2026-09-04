@@ -669,8 +669,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "5101b2beb85d8200",
-    "relevance_score": 55,
-    "relevance_reason": "ruolo di marketing pertinente ma mancano informazioni su sede, contratto e descrizione",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di marketing in linea, ma sede non specificata",
     "first_seen": "2026-07-07T22:26:54.042198+00:00",
     "status": "nuovo"
   },
@@ -2139,8 +2139,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "99a4fa4080bef7b4",
-    "relevance_score": 55,
-    "relevance_reason": "Ruolo pertinente di Category Manager, ma mancano informazioni sulla sede e sulla descrizione, limitando la valutazione di pertinenza",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di Category Manager in ambito beauty è pertinente, ma la sede non è specificata, quindi l'allineamento geografico è incerto",
     "first_seen": "2026-08-26T08:08:14.317418+00:00",
     "status": "nuovo"
   },
@@ -2244,8 +2244,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "771c93b2bf537e24",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo di marketing nel settore beauty a Milano, pertinente al profilo anche se più focalizzato su campagne digitali e influencer rispetto al tradizionale brand management",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di marketing digitale nel settore beauty a Milano, in linea con l'esperienza della candidata ma non è esattamente un brand manager",
     "first_seen": "2026-08-28T19:37:37.627161+00:00",
     "status": "nuovo"
   },
@@ -2307,6 +2307,36 @@
     "relevance_score": 60,
     "relevance_reason": "Il ruolo è di Brand Lead in ambito marketing con sede a Milano, quindi pertinente, ma il settore Consumer Healthcare non è quello beauty desiderato e il livello senior potrebbe superare i 3 anni di esperienza della candidata",
     "first_seen": "2026-09-02T12:23:11.344565+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "La Bottega Collective",
+    "title": "Brand Licensing Specialist",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5869634161?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "La Bottega Collective is a global platform dedicated to creating exclusive products and services for the luxury hospitality sector. Launched in 2025 under the leadership of Tommaso Pacini, CEO of La Bottega, in partnership with Three Hills and the Ou(r) Group of the Ruffini family, it brings together a selection of leading companies in the industry. These include La Bottega , a leader in luxury hotel beauty essentials; Vanity Group , with a global presence and expertise spanning R&D, production…",
+    "contract_type": null,
+    "posted_date": "2026-09-04T01:17:06Z",
+    "id": "76cab6e5ed465ced",
+    "relevance_score": 75,
+    "relevance_reason": "Ruolo di Brand Licensing Specialist a Milano, pertinente al brand management nel settore beauty/lusso, con esperienza adeguata e senza elementi di stage o seniorità eccessiva.",
+    "first_seen": "2026-09-04T12:25:16.580434+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Fler",
+    "title": "Beauty Tech Product Innovator (Pavia)",
+    "location": "Pavia PV, Italia",
+    "url": "https://www.kitlavoro.it/lavoro/582144442/beauty-tech-product-innovator-pavia?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:Kit Lavoro",
+    "description": "Fler è alla ricerca di un Product Innovation Specialist da Milano per guidare lo sviluppo di nuovi prodotti dalla concezione al lancio. Sarai responsabile di identificare opportunità, coordinare fornitori e definire posizionamento e prezzo, collaborando con marketing e vendite.  \nIl ruolo è cross-funzionale tra sviluppo prodotto, marketing, vendite e operations, con possibilità di in ufficio 3 giorni/settimana in un contesto internazionale e agile.  \nJ-18808-Ljbffr",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "749cc5615f85e153",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo in linea con product/brand nel settore beauty ma sede a Pavia, non Milano",
+    "first_seen": "2026-09-04T12:25:16.580434+00:00",
     "status": "nuovo"
   }
 ]
