@@ -1014,8 +1014,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-06-15T16:41:24Z",
     "id": "a5788750e72e9869",
-    "relevance_score": 80,
-    "relevance_reason": "Posizione in linea con esperienza e interesse per il brand, a Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Associate Account Manager/Brand Specialist in linea con esperienza junior di brand, ma non specifico settore beauty",
     "first_seen": "2026-07-15T09:29:50.204273+00:00",
     "status": "nuovo"
   },
@@ -1074,8 +1074,8 @@
     "contract_type": null,
     "posted_date": "2026-05-06T07:23:29Z",
     "id": "3f4183bdd715dd00",
-    "relevance_score": 65,
-    "relevance_reason": "Ruolo di Product Development Specialist in ambito OTC è legato al marketing/prodotto e la sede è a Milano, ma il settore farmaceutico non è strettamente quello beauty desiderato",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo pertinente al marketing/product, sede a Milano, ma non strettamente nel settore beauty richiesto",
     "first_seen": "2026-07-16T09:34:26.996597+00:00",
     "status": "nuovo"
   },
@@ -1584,8 +1584,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "22b42755e4b83bbd",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo di Product Innovation Specialist nel settore beauty a Milano, coerente con l'esperienza di brand manager e con gli obiettivi di product/brand management della candidata, ma non è un ruolo puramente di brand manager",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Product Innovation Specialist in ambito beauty, vicinissimo alle competenze di brand/product manager della candidata e con sede a Milano",
     "first_seen": "2026-07-30T09:56:08.014838+00:00",
     "status": "nuovo"
   },
@@ -2155,7 +2155,7 @@
     "posted_date": "2026-07-24T04:50:43Z",
     "id": "53e586483ce5b49c",
     "relevance_score": 85,
-    "relevance_reason": "Ruolo di Brand Marketing Manager a Milano, in linea con esperienza e ambizioni della candidata, pur non essendo specificamente nel settore beauty",
+    "relevance_reason": "Il ruolo è un Brand Marketing Manager a Milano, perfettamente in linea con la sua esperienza di 3 anni in brand management; la posizione non è uno stage e corrisponde al settore marketing/brand richiesto, anche se l'annuncio non specifica il segmento beauty.",
     "first_seen": "2026-08-27T18:33:08.425656+00:00",
     "status": "nuovo"
   },
@@ -2337,6 +2337,21 @@
     "relevance_score": 65,
     "relevance_reason": "Ruolo in linea con product/brand nel settore beauty ma sede a Pavia, non Milano",
     "first_seen": "2026-09-04T12:25:16.580434+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Yibi Hantang | China Lifestyle Extension Partner",
+    "title": "Brand Manager",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5869633869?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "About the Role YIBI Hantang is looking for a Brand Manager based in Milan to support international fashion and lifestyle brands exploring category extension and growth opportunities in China. This role sits at the intersection of brand identity, product, lifestyle positioning, and market development. Responsibilities Assess brand positioning and potential lifestyle-extension opportunities. Support projects involving fashion, fragrance, beauty, accessories, and lifestyle categories. Provide insi…",
+    "contract_type": null,
+    "posted_date": "2026-09-04T01:16:58Z",
+    "id": "515de77c8fb78adb",
+    "relevance_score": 90,
+    "relevance_reason": "Ruolo di Brand Manager a Milano, nel settore fashion/beauty, in linea con l'esperienza di 3 anni della candidata.",
+    "first_seen": "2026-09-07T13:43:56.336804+00:00",
     "status": "nuovo"
   }
 ]
