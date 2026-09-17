@@ -2458,5 +2458,35 @@
     "relevance_reason": "ruolo pertinente di product manager assistant, ma la sede non è specificata",
     "first_seen": "2026-09-15T12:50:16.993208+00:00",
     "status": "nuovo"
+  },
+  {
+    "company": "Luciano Colombo srl",
+    "title": "Social Media Manager (Per Brand Hairstyling Luxury)",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5886437390?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Siamo alla ricerca di un social media & content manager dinamico e motivato. Mansioni richieste: - Gestione account social (avviati dal 2013 e piuttosto attivi) - Creazione di contenuti in collaborazione con i vari atelier - Copywriting (richieste ottime competenze di scrittura); - stesura piano editoriale (supervisionato da Responsabile Comunicazione), applicazione e gestione del piano editoriale; - Sviluppare progetti cross media (social, digital); - Social monitoring e customer care; - Piani…",
+    "contract_type": null,
+    "posted_date": "2026-09-16T18:37:00Z",
+    "id": "4584ab6bd8e5d45c",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Social Media Manager in ambito luxury hair, settore beauty, basato a Milano e pertinente al marketing/brand, adatto al profilo con 3 anni di esperienza",
+    "first_seen": "2026-09-17T12:46:05.537759+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Sodalis Group",
+    "title": "Brand Specialist",
+    "location": "",
+    "url": "https://careers.sodalisgroup.com/job/Lodi-Vecchio-%28ITA%29-Brand-Specialist-Ital-Lodi-Vecch/1368144255/",
+    "source": "custom_llm",
+    "description": "",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "d65f6c927e479356",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo Brand Specialist in linea con il profilo, ma mancano dettagli su sede, tipo di contratto e descrizione, riducendo la pertinenza",
+    "first_seen": "2026-09-17T12:46:05.537759+00:00",
+    "status": "nuovo"
   }
 ]
