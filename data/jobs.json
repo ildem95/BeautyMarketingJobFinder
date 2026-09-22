@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo di Customer Marketing Manager in azienda beauty, coerente con il profilo, ma mancano dettagli sulla sede e il tipo di contratto",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di marketing in ambito beauty compatibile, ma sede non specificata",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo compatibile ma mancano informazioni su sede e tipo di contratto",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo pertinente di Brand Specialist, ma la sede non è specificata e non è indicato se è remoto/ibrido, quindi l'allineamento con la preferenza per Milano è incerto.",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2502,6 +2502,21 @@
     "relevance_score": 75,
     "relevance_reason": "Ruolo di Marketing Assistant in ambito brand, in linea con l'esperienza, ma la sede non è specificata, limitando la certezza della collocazione a Milano",
     "first_seen": "2026-09-21T13:58:50.071702+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Nike",
+    "title": "Brand Marketing Specialist",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5889346803?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Questa posizione è in Nike Il processo di selezione sarà interamente gestito Nike.   WHO YOU’LL WORK WITH You will be part of the Italy Brand Marketing team, responsible for building meaningful consumer connections and driving the brand's relevance across the Italian marketplace. You will work closely with cross-functional partners across Marketing, Sports Marketing, Marketplace, Merchandising, Communications, Digital Marketing, Creative, Retail Marketing and Nike Direct teams. Externally, you …",
+    "contract_type": null,
+    "posted_date": "2026-09-18T16:17:37Z",
+    "id": "15e1785f5b10e10a",
+    "relevance_score": 88,
+    "relevance_reason": "Ruolo Brand Marketing Specialist in Milano, perfettamente in linea con l'esperienza di 3+ anni e le ambizioni nel settore beauty, senza essere uno stage né un ruolo senior",
+    "first_seen": "2026-09-22T12:45:43.305382+00:00",
     "status": "nuovo"
   }
 ]
