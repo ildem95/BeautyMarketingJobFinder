@@ -475,7 +475,7 @@
     "posted_date": null,
     "id": "b381c71258934016",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di marketing in ambito beauty compatibile, ma sede non specificata",
+    "relevance_reason": "Ruolo di marketing pertinente ma mancano informazioni su sede e contratto",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -2439,8 +2439,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "1822b46596262112",
-    "relevance_score": 55,
-    "relevance_reason": "Ruolo pertinente ma sede non specificata, probabilmente non a Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo rilevante di product manager assistant, ma mancano informazioni sulla sede rispetto a Milano",
     "first_seen": "2026-09-10T12:27:56.104668+00:00",
     "status": "nuovo"
   },
