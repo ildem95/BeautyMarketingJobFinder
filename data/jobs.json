@@ -474,8 +474,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b381c71258934016",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di marketing pertinente ma mancano informazioni su sede e contratto",
+    "relevance_score": 60,
+    "relevance_reason": "Il ruolo di Customer Marketing Manager è pertinente al profilo, ma la sede non è specificata, riducendo la corrispondenza con la preferenza per Milano.",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -1314,8 +1314,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
-    "relevance_score": 60,
-    "relevance_reason": "Il ruolo è più orientato all'account management che al brand / marketing tradizionale",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Brand Specialist in ambito B2B, full‑time a Milano e in linea con le competenze di brand manager, ma non specifico per il settore beauty.",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
