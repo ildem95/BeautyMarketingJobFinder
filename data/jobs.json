@@ -129,8 +129,8 @@
     "contract_type": "permanent",
     "posted_date": "2026-06-06T08:18:01Z",
     "id": "f576b1cd3722f1f1",
-    "relevance_score": 65,
-    "relevance_reason": "Il ruolo è ibrido Brand & Sales Manager, quindi include la parte brand cercata ma è più orientato alla vendita, con sede a Milano che è adeguata.",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo combina brand e sales nel settore beauty a Milano, è pertinente ma include responsabilità di vendita non richieste dalla candidata",
     "first_seen": "2026-07-04T14:32:42.744962+00:00",
     "status": "nuovo"
   },
@@ -2410,7 +2410,7 @@
     "posted_date": null,
     "id": "3d919acb29a61cf0",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di marketing compatibile, ma mancano dettagli su sede e seniority",
+    "relevance_reason": "Il ruolo di Marketing Executive è pertinente al profilo di brand/marketing, ma la sede non è specificata, quindi non è garantita la vicinanza a Milano.",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Specialist pertinente al profilo, ma mancano dettagli su sede e descrizione",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo pertinente ma sede non specificata, quindi incerta la corrispondenza geografica",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2547,6 +2547,21 @@
     "relevance_score": 80,
     "relevance_reason": "Ruolo di Product Manager nel settore skincare in linea con il profilo, ma sede a Parma anziché Milano",
     "first_seen": "2026-09-24T12:56:56.210319+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "TNGP",
+    "title": "Social Media & Community Manager",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5869958758?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Ciao, sono Alfonso , Social Media Lead in Together , e sto cercando un* Social Media & Community Manager da inserire nel team. Chi siamo Together è la Creative Agency del gruppo TNGP. Fondata nel 2018 a Milano, sviluppa strategie e campagne che nascono dalla combinazione di dati, cultura e creatività con un obiettivo preciso: generare impatto reale sui brand, sulle persone e sull'ecosistema. Il suo approccio mette al centro la dimensione umana della comunicazione, sempre più assente nel panoram…",
+    "contract_type": null,
+    "posted_date": "2026-09-04T05:56:26Z",
+    "id": "ab7a0fbf487f3003",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Social Media & Community Manager in ambito marketing a Milano, ma non focalizzato su brand beauty né su responsabilità tipiche di Brand Manager",
+    "first_seen": "2026-10-05T15:53:33.657379+00:00",
     "status": "nuovo"
   }
 ]
