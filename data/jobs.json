@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo pertinente ma sede non specificata, quindi incerta la corrispondenza geografica",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo coerente con il profilo, ma sede non specificata",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2562,6 +2562,21 @@
     "relevance_score": 60,
     "relevance_reason": "Ruolo di Social Media & Community Manager in ambito marketing a Milano, ma non focalizzato su brand beauty né su responsabilità tipiche di Brand Manager",
     "first_seen": "2026-10-05T15:53:33.657379+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Coty",
+    "title": "Assistant Brand Manager, Social Media & Content - Global CoverGirl and Sally Hansen",
+    "location": "",
+    "url": "https://careers.coty.com/job/New-York-Assistant-Brand-Manager%2C-Social-Media-&-Content-Global-CoverGirl-and-Sally-Hansen-NY-10118/1442522333/",
+    "source": "custom_llm",
+    "description": "",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "b378a9dc132ee3c9",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo pertinente di Assistant Brand Manager nel settore beauty, ma mancano informazioni sulla sede e sul tipo di contratto",
+    "first_seen": "2026-10-06T14:17:22.673319+00:00",
     "status": "nuovo"
   }
 ]
