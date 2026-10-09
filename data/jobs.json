@@ -2394,8 +2394,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "e66630a341ecef93",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo, ma la sede non è specificata e potrebbe non soddisfare la preferenza per Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo pertinente ma sede non specificata, potrebbe non essere a Milano",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2409,8 +2409,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "3d919acb29a61cf0",
-    "relevance_score": 70,
-    "relevance_reason": "Il ruolo di Marketing Executive è pertinente al profilo di brand/marketing, ma la sede non è specificata, quindi non è garantita la vicinanza a Milano.",
+    "relevance_score": 75,
+    "relevance_reason": "Ruolo di marketing in linea con l'esperienza, ma mancano dettagli su sede e contratto",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo pertinente di Brand Specialist, ma mancano informazioni sulla sede e sul tipo di contratto",
+    "relevance_score": 65,
+    "relevance_reason": "Il ruolo di Brand Specialist è in linea con il profilo, ma la mancanza di informazioni su sede, contratto e dettagli rende difficile valutarne la pertinenza completa",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2559,8 +2559,8 @@
     "contract_type": null,
     "posted_date": "2026-09-04T05:56:26Z",
     "id": "ab7a0fbf487f3003",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Social Media & Community Manager in ambito marketing a Milano, ma non focalizzato su brand beauty né su responsabilità tipiche di Brand Manager",
+    "relevance_score": 52,
+    "relevance_reason": "Ruolo di Social Media è marketing ma non brand specifico né nel settore beauty, comunque in Milano",
     "first_seen": "2026-10-05T15:53:33.657379+00:00",
     "status": "nuovo"
   },
@@ -2577,6 +2577,36 @@
     "relevance_score": 85,
     "relevance_reason": "Ruolo in linea con il profilo e posizione non specificata",
     "first_seen": "2026-10-06T14:17:22.673319+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Cosmetica",
+    "title": "Brand Marketing Manager (M/F/X) - Cosmetica (Sostituzione Maternità) - €55.000 - €65.000 All'Anno",
+    "location": "Milano MI, Italia",
+    "url": "https://it.whatjobs.com/jobs/brand-marketing-manager-(m---f!x)/milano-lombardia?id=239286775&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:WhatJobs",
+    "description": "Brand Marketing Manager (Sostituzione Maternità)    \n\n  Il nostro cliente è una realtà multinazionale leader e in forte crescita nel settore della dermocosmesi. Innovazione, rigore scientifico e passione per il benessere della pelle sono il motore del nostro successo globale. Per la loro sede di Milano, siamo alla ricerca di una figura di Brand Marketing Manager che andrà a gestire uno dei brand di punta durante un periodo di sostituzione maternità   \n\n  Responsabilità     \n\n All'interno del team Marketing, la risorsa avrà la responsabilità di guidare la strategia di crescita del brand sul mercato italiano, coordinando i lanci di prodotto e le campagne di comunicazione a 360°.   \n\n Definire e implementare il piano di marketing locale (prodotto, prezzo, placement, promozione) in linea con le linee guida globali    Gestire il budget di marketing allocato, monitorando costantemente il ROI delle attività    Coordinare i lanci di nuovi prodotti e sviluppare campagne di comunicazione integrate (ATL, BTL, Digital, PR)   Analizzare costantemente i trend di mercato, i dati di vendita (sell-in/sell-out) e il posizionamento dei competitor per identificare nuove opportunità di business    Collaborare a stretto contatto con il team Sales, il Trade Marketing e le agenzie esterne       Requisiti     \n\n Esperienza:    Almeno 4 anni di esperienza nel ruolo di Brand/Marketing Manager nel mondo Personal Care o FMCG    Plus:    Provenienza dal settore cosmetico o dermocosmetico e conoscenza del canale Farmacia    Lingue:    Fluente conoscenza della lingua inglese (scritta e parlata), indispensabile per i costanti rapporti con l'headquarter    Competenze analitiche:    Forte orientamento ai dati, capacità di lettura dei KPI di mercato e gestione del P&L di brand    Soft Skills:    Doti di leadership, approccio proattivo, flessibilità e ottime capacità relazionali       Sede di lavoro:    Milano centro   \n\n Tipologia contrattuale:    Tempo determinato - Sostituzione maternità   \n\n Inquadramento:    CCNL Commercio   \n\n Package retributivo:   €55.000/65.000",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "8f8357c2e02958d7",
+    "relevance_score": 75,
+    "relevance_reason": "Ruolo di Brand Marketing Manager nel settore cosmetico a Milano, perfettamente in linea con il profilo, ma richiede almeno 4 anni di esperienza mentre la candidata ha poco più di 3 anni",
+    "first_seen": "2026-10-09T14:25:24.027910+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Beiersdorf",
+    "title": "(Junior) Brand Manager",
+    "location": "Marketing / Market Research / Milano, Italy",
+    "url": "https://www.beiersdorf.com/career/jobs/b51b4d511c07e18cc16a95cccd8b8882",
+    "source": "custom_llm",
+    "description": "Marketing / Market Research | Professional | Milano, Italy | Hybrid",
+    "contract_type": "Professional",
+    "posted_date": null,
+    "id": "307693a885805eef",
+    "relevance_score": 95,
+    "relevance_reason": "Ruolo Junior Brand Manager in ambito beauty a Milano, perfettamente in linea con l'esperienza e le preferenze della candidata",
+    "first_seen": "2026-10-09T14:25:24.027910+00:00",
     "status": "nuovo"
   }
 ]
