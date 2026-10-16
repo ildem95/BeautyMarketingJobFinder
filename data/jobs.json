@@ -1524,8 +1524,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "798afc2b85558eef",
-    "relevance_score": 68,
-    "relevance_reason": "Ruolo di Account Manager su Amazon, poco legato al beauty e più orientato al venditore, ma comunque con competenze di brand",
+    "relevance_score": 60,
+    "relevance_reason": "Il ruolo è un Account Manager (Senior Brand Specialist) su Amazon, quindi legato al brand ma più orientato alla gestione vendor; è a Milano e non è uno stage, ma richiede seniorità più alta rispetto ai 3 anni della candidata e non è specifico per il settore beauty.",
     "first_seen": "2026-07-29T10:02:11.427367+00:00",
     "status": "nuovo"
   },
@@ -2395,7 +2395,7 @@
     "posted_date": null,
     "id": "e66630a341ecef93",
     "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in azienda di cosmetica, rispecchia le competenze richieste, ma il livello globale potrebbe richiedere più esperienza rispetto ai 3 anni della candidata",
+    "relevance_reason": "Il ruolo è Brand Manager, in linea con il profilo, ma la sede non è specificata, quindi l'allineamento geografico è incerto",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2667,6 +2667,21 @@
     "relevance_score": 60,
     "relevance_reason": "Ruolo pertinente ma la sede non è indicata, quindi l'allineamento geografico è incerto",
     "first_seen": "2026-10-15T12:53:04.912617+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Pquod",
+    "title": "Social Media Manager – Settore Beauty & Personal Care",
+    "location": "Milano MI, Italia",
+    "url": "https://crebs.it/lavori/social-media-manager-settore-beauty-personal-care/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:Crebs",
+    "description": "Pquod è un'agenzia di comunicazione di Milano. Seguiamo brand nazionali e internazionali in progetti di comunicazione integrata, digital e social.\r\nPer rafforzare il team cerchiamo un/una Social Media Manager con almeno 1 anno di esperienza nel ruolo.\n\n\r\nDi cosa ti occuperai\n\n\r\n\r\n\r\n \tCreare e gestire i piani editoriali dei brand che seguiamo\r\n \tLavorare con il team grafico nella fase di concept e nella creazione dei formati\r\n \tPubblicare i contenuti e moderare le pagine e le community\r\n \tSviluppare campagne paid di awareness\r\n \tProgettare e gestire attività di seeding organico\r\n \tGestire i rapporti con talent e influencer\r\n\r\nCosa cerchiamo\n\n\r\n\r\n\r\n \tAlmeno 1 anno di esperienza come Social Media Manager, in agenzia o in azienda\r\n \tOttima conoscenza delle principali piattaforme (Instagram, TikTok, Facebook) e dei relativi strumenti di advertising\r\n \tCapacità organizzative e attenzione ai dettagli\r\n \tSensibilità per i trend e per i linguaggi dei diversi canali\r\n \tAttitudine al lavoro in team\r\n\r\nCostituisce un plus\n\n\r\n\r\n\r\n \tConoscenza del mondo cosmetico e personal care\r\n\r\nCosa offriamo\n\n\r\n\r\n\r\n \tContratto: tempo indeterminato\r\n \tModalità: 4 giorni in sede, quinto smart working",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "5b468309d783af05",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Social Media Manager in ambito beauty a Milano, pertinente al marketing ma meno vicino alle posizioni di Brand/Category Manager richieste",
+    "first_seen": "2026-10-16T12:30:24.528718+00:00",
     "status": "nuovo"
   }
 ]
