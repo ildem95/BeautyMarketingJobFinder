@@ -1524,8 +1524,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "798afc2b85558eef",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo collegato al brand ma potenzialmente troppo senior per l'esperienza della candidata",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Senior Brand Specialist a Milano, in linea con le competenze di brand/marketing della candidata e senza essere uno stage",
     "first_seen": "2026-07-29T10:02:11.427367+00:00",
     "status": "nuovo"
   },
@@ -2394,8 +2394,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "e66630a341ecef93",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo, ma la sede non è specificata e potrebbe non soddisfare la preferenza per Milano",
+    "relevance_score": 60,
+    "relevance_reason": "Il ruolo è Brand Manager nel settore beauty, ma la sede non è specificata e non è chiaro se sia a Milano o remoto",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2409,8 +2409,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "3d919acb29a61cf0",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo marketing in azienda beauty compatibile con il profilo, ma la sede non è specificata",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Marketing Executive in linea con il profilo, non è uno stage, ma la sede non è specificata",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Specialist in linea con il profilo, ma la sede non è indicata e non si conoscono le modalità di lavoro (remoto/ibrido)",
+    "relevance_score": 70,
+    "relevance_reason": "Titolo coerente ma mancano informazioni sulla sede e sul tipo di contratto",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2643,14 +2643,14 @@
     "company": "Veralab",
     "title": "Product Manager – Beauty Launch",
     "location": "Milano MI, Italia",
-    "url": "https://it.trabajo.org/offerta-2939-99b091de67d43c1a1003a5b626689965?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "url": "https://it.trabajo.org/offerta-5559-1ea41fe65f25459577cf4960f5483591?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
     "source": "google_jobs:Trabajo.org",
     "description": "Veralab cerca un Product Manager per il team Product Marketing & Development. La risorsa definirà e implementerà la strategia di sviluppo e lancio dei prodotti, guidando l'intero ciclo di gestione prodotto in collaborazione con stakeholder chiave.\n\nSi richiede capacità di analisi di mercato, defining USP, coordinating brief, sourcing, go-to-market e gestione budgeting, con focus sul settore beauty e sull'allineamento tra contenuti, attivazione e digitale.",
     "contract_type": null,
     "posted_date": null,
     "id": "8d71cbc8d8a13582",
-    "relevance_score": 90,
-    "relevance_reason": "Ruolo in linea con esperienza e settore, sede corretta a Milano",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo product manager nel beauty, sede Milano, in linea con esperienza e obiettivi",
     "first_seen": "2026-10-14T13:04:22.489490+00:00",
     "status": "nuovo"
   },
@@ -2772,6 +2772,21 @@
     "relevance_score": 85,
     "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, perfettamente allineato alle competenze e alle aspirazioni della candidata con 3+ anni di esperienza.",
     "first_seen": "2026-10-22T13:03:24.215850+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "FRATELLI POLLI SRL",
+    "title": "BRAND MANAGER MARKETING",
+    "location": "Lanza, Milano",
+    "url": "https://www.adzuna.it/details/5931864238?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Nata nel 1872 , Fratelli Polli Srl è ben presto divenuta azienda leader nel settore delle conserve vegetali e delle salse , conquistando un ruolo da protagonista nel mercato nazionale e internazionale. Presente in 56 paesi del mondo, la sua visione è improntata alla coerenza fra valori aziendali, qualità degli ingredienti e dei prodotti, fedeltà alle esigenze del consumatore. Business Mastering Monitoraggio e gestione del budget di marketing. Analisi e ottimizzazione dei margini, del product mi…",
+    "contract_type": "full_time",
+    "posted_date": "2026-10-17T10:23:01Z",
+    "id": "7c57b5fcb5df30a5",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Brand Manager in linea con le competenze, sede a Milano, ma l'azienda è nel settore alimentare anziché beauty, che è la preferenza della candidata",
+    "first_seen": "2026-10-23T12:38:53.150513+00:00",
     "status": "nuovo"
   }
 ]
