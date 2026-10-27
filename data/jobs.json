@@ -1014,8 +1014,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-10-08T19:35:51Z",
     "id": "a5788750e72e9869",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo di Brand Specialist/Account Manager in Milano, pertinente al marketing/brand e non senior, ma non focalizzato specificamente sul beauty",
+    "relevance_score": 78,
+    "relevance_reason": "Ruolo in linea con brand/marketing, sede Milano e livello junior, quindi pertinente",
     "first_seen": "2026-07-15T09:29:50.204273+00:00",
     "status": "nuovo"
   },
@@ -2395,7 +2395,7 @@
     "posted_date": null,
     "id": "e66630a341ecef93",
     "relevance_score": 60,
-    "relevance_reason": "Il ruolo è Brand Manager nel settore beauty, ma la sede non è specificata e non è chiaro se sia a Milano o remoto",
+    "relevance_reason": "Ruolo corrisponde al profilo ma la sede non è indicata, quindi incerta rispetto alla preferenza per Milano",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 70,
-    "relevance_reason": "Titolo coerente ma mancano informazioni sulla sede e sul tipo di contratto",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo pertinente ma mancano informazioni su sede e tipo di contratto",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
