@@ -2394,8 +2394,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "e66630a341ecef93",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo corrisponde al profilo ma la sede non è indicata, quindi incerta rispetto alla preferenza per Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo coerente con il brand management nel settore beauty, ma la sede non è indicata",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo pertinente ma mancano informazioni su sede e tipo di contratto",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo pertinente di Brand Specialist, ma mancano informazioni sulla sede e sul tipo di contratto, quindi l'allineamento con la preferenza per Milano è incerto",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2784,8 +2784,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-10-17T10:23:01Z",
     "id": "7c57b5fcb5df30a5",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Manager in linea con le competenze, sede a Milano, ma l'azienda è nel settore alimentare anziché beauty, che è la preferenza della candidata",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo marketing a Milano, ma settore alimentare non in linea con ambizione beauty",
     "first_seen": "2026-10-23T12:38:53.150513+00:00",
     "status": "nuovo"
   },
@@ -2799,8 +2799,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-10-25T17:52:29Z",
     "id": "fcf6da886b32a536",
-    "relevance_score": 92,
-    "relevance_reason": "Ruolo di Brand Manager nel settore skincare a Milano, perfettamente in linea con l'esperienza di 3 anni e l'obiettivo di entrare nel beauty",
+    "relevance_score": 90,
+    "relevance_reason": "Ruolo di Brand Manager in ambito skincare a Milano, perfettamente in linea con l'esperienza e le aspirazioni della candidata",
     "first_seen": "2026-10-26T14:08:00.243264+00:00",
     "status": "nuovo"
   }
