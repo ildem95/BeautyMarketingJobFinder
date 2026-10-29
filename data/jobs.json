@@ -348,14 +348,14 @@
     "company": "Amazon EU SARL  - D68",
     "title": "Account Manager, Amazon Vendor Services",
     "location": "Milano, Provincia di Milano",
-    "url": "https://www.adzuna.it/details/5828036890?utm_medium=api&utm_source=bf14fd48",
+    "url": "https://www.adzuna.it/details/5919501988?utm_medium=api&utm_source=bf14fd48",
     "source": "adzuna",
     "description": "AVS is a paid B2B service that helps strategically grow complex brands on Amazon. As an Account Manager (internally referred to as Senior Brand Specialist), you will own and drive the strategic relationship with a portfolio of complex vendor accounts operating across multiple EU marketplaces. You will navigate the unique dynamics of each market while building unified, customer-centric business plans that create value for both end customers and your vendor partners. You will own your vendors' an…",
     "contract_type": "full_time",
-    "posted_date": "2026-08-04T18:25:36Z",
+    "posted_date": "2026-10-08T19:35:52Z",
     "id": "4fefed8025cdd5d6",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo di Brand Specialist senior a Milano, rilevante per il marketing di brand; livello senior può essere borderline ma coerente con 3+ anni di esperienza.",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo in linea con branding/marketing e sede a Milano, ma la seniorità indicata (Senior Brand Specialist) potrebbe richiedere più esperienza rispetto ai 3 anni della candidata",
     "first_seen": "2026-07-05T18:56:48.342754+00:00",
     "status": "nuovo"
   },
@@ -2485,7 +2485,7 @@
     "posted_date": null,
     "id": "d65f6c927e479356",
     "relevance_score": 65,
-    "relevance_reason": "Ruolo pertinente di Brand Specialist, ma mancano informazioni sulla sede e sul tipo di contratto, quindi l'allineamento con la preferenza per Milano è incerto",
+    "relevance_reason": "Ruolo di Brand Specialist in linea con le competenze, ma mancano dettagli su sede e contratto",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2664,8 +2664,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "914d93918f8863ad",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo pertinente nel settore beauty e brand, ma mancano informazioni sulla sede e sul tipo di contratto",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di brand marketing in azienda beauty, ma sede non specificata e non indicata opzione ibrida/remote",
     "first_seen": "2026-10-15T12:53:04.912617+00:00",
     "status": "nuovo"
   },
@@ -2695,7 +2695,7 @@
     "posted_date": "2026-10-17T18:19:00Z",
     "id": "47eb4c48ba809343",
     "relevance_score": 75,
-    "relevance_reason": "Ruolo di Brand Marketing in linea con le competenze e la sede a Milano, ma settore sportivo anziché beauty",
+    "relevance_reason": "Buona corrispondenza per ruolo di brand marketing e sede a Milano, livello adeguato, ma il settore sportivo non è quello beauty desiderato dalla candidata",
     "first_seen": "2026-10-19T14:48:50.997922+00:00",
     "status": "nuovo"
   },
@@ -2799,8 +2799,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-10-25T17:52:29Z",
     "id": "fcf6da886b32a536",
-    "relevance_score": 90,
-    "relevance_reason": "Ruolo di Brand Manager in ambito skincare a Milano, perfettamente in linea con l'esperienza e le aspirazioni della candidata",
+    "relevance_score": 88,
+    "relevance_reason": "Ruolo di Brand Manager in ambito consumer a Milano, perfettamente in linea con l'esperienza e le aspettative della candidata",
     "first_seen": "2026-10-26T14:08:00.243264+00:00",
     "status": "nuovo"
   }
