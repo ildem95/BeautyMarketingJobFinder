@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 65,
-    "relevance_reason": "Il ruolo di Brand Specialist corrisponde al profilo di marketing/brand, ma la sede non è indicata, quindi non è chiaro se sia a Milano o remote, limitando la pertinenza.",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo coerente con brand specialist, ma mancano dettagli su sede e contratto, riducendo la pertinenza",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2559,8 +2559,8 @@
     "contract_type": null,
     "posted_date": "2026-09-04T05:56:26Z",
     "id": "ab7a0fbf487f3003",
-    "relevance_score": 52,
-    "relevance_reason": "Ruolo di Social Media è marketing ma non brand specifico né nel settore beauty, comunque in Milano",
+    "relevance_score": 60,
+    "relevance_reason": "Il ruolo è di social media/communication, pertinente al marketing ma non focalizzato su brand management; la sede è Milano e non è uno stage.",
     "first_seen": "2026-10-05T15:53:33.657379+00:00",
     "status": "nuovo"
   },
@@ -2634,8 +2634,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "6d1b670d7b6d9575",
-    "relevance_score": 88,
-    "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, perfettamente in linea con l'esperienza di 3 anni in brand management e con le ambizioni di entrare nel beauty; non è uno stage né una posizione senior e la sede è ideale.",
+    "relevance_score": 90,
+    "relevance_reason": "Ruolo in linea con esperienza e settore, Milano, non è stage",
     "first_seen": "2026-10-14T13:04:22.489490+00:00",
     "status": "nuovo"
   },
@@ -2649,8 +2649,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "8d71cbc8d8a13582",
-    "relevance_score": 88,
-    "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, in linea con le competenze di brand/marketing della candidata e senza richieste di seniorità elevated",
+    "relevance_score": 85,
+    "relevance_reason": "Ottimo match: ruolo product/brand manager nel beauty a Milano, adatto al profilo junior‑mid",
     "first_seen": "2026-10-14T13:04:22.489490+00:00",
     "status": "nuovo"
   },
@@ -2799,8 +2799,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-10-25T17:52:29Z",
     "id": "fcf6da886b32a536",
-    "relevance_score": 88,
-    "relevance_reason": "Ruolo di Brand Manager in ambito consumer a Milano, perfettamente in linea con l'esperienza e le aspettative della candidata",
+    "relevance_score": 90,
+    "relevance_reason": "Il ruolo di Brand Manager in una azienda di dermatologia/skincare è molto in linea con l'esperienza e l'obiettivo di entrare nel settore beauty, con sede a Milano.",
     "first_seen": "2026-10-26T14:08:00.243264+00:00",
     "status": "nuovo"
   },
@@ -2889,8 +2889,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "9beceab7c35bc761",
-    "relevance_score": 65,
-    "relevance_reason": "Ruolo di Trade Marketing è affine al marketing ma non focalizzato su brand; manca l'indicazione della sede (potrebbe non essere a Milano).",
+    "relevance_score": 68,
+    "relevance_reason": "Ruolo di trade marketing pertinente al marketing, ma non specifico brand e la sede non è indicata",
     "first_seen": "2026-11-02T17:01:06.454533+00:00",
     "status": "nuovo"
   }
