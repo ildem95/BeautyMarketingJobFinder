@@ -1314,8 +1314,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
-    "relevance_score": 55,
-    "relevance_reason": "Ruolo più orientato a account management che a marketing/brand, non specifico del settore beauty, ma in sede di Milano",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo affine al brand specialist con sede a Milano, ma più orientato a account management rispetto al puro marketing",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
@@ -1524,8 +1524,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "798afc2b85558eef",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo di Senior Brand Specialist a Milano, in linea con le competenze di brand/marketing della candidata e senza essere uno stage",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo senior ma pertinente al brand management, sede a Milano e non è uno stage",
     "first_seen": "2026-07-29T10:02:11.427367+00:00",
     "status": "nuovo"
   },
@@ -2484,8 +2484,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "d65f6c927e479356",
-    "relevance_score": 70,
-    "relevance_reason": "Il ruolo di Brand Specialist è in linea con il profilo, ma la mancanza di informazioni su sede e modalità di lavoro riduce la pertinenza",
+    "relevance_score": 55,
+    "relevance_reason": "ruolo pertinente di Brand Specialist, ma la sede non è indicata e non è chiaro se sia a Milano o remoto",
     "first_seen": "2026-09-17T12:46:05.537759+00:00",
     "status": "nuovo"
   },
@@ -2559,8 +2559,8 @@
     "contract_type": null,
     "posted_date": "2026-09-04T05:56:26Z",
     "id": "ab7a0fbf487f3003",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Social Media & Community Manager è pertinente al marketing/communication e la sede è Milano, ma non è specifico del settore beauty desiderato dalla candidata",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo è di Social Media & Community Manager, quindi pertinente al marketing/communication, ma non è specifico per il settore beauty né per la gestione di brand tradizionali, limitando la pertinenza al profilo della candidata.",
     "first_seen": "2026-10-05T15:53:33.657379+00:00",
     "status": "nuovo"
   },
@@ -2664,8 +2664,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "914d93918f8863ad",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di brand marketing rilevante, ma la sede non è specificata",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo coerente con il profilo ma la sede non è specificata, potrebbe non soddisfare la preferenza per Milano",
     "first_seen": "2026-10-15T12:53:04.912617+00:00",
     "status": "nuovo"
   },
@@ -2979,8 +2979,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "ce0c143c247fc35e",
-    "relevance_score": 95,
-    "relevance_reason": "Posizione in linea con il profilo, ruolo di Brand Manager nel settore beauty a Milano, con possibilità ibrida",
+    "relevance_score": 85,
+    "relevance_reason": "Il ruolo è Brand Manager nel settore beauty, con sede a Milano e richiede competenze di marketing/brand; la seniority è adatta a una candidata con circa 3 anni di esperienza, senza essere senior o stage.",
     "first_seen": "2026-11-05T15:17:02.716821+00:00",
     "status": "nuovo"
   },
@@ -3012,6 +3012,36 @@
     "relevance_score": 80,
     "relevance_reason": "Il ruolo di Product Manager nel settore cosmetico è in linea con gli obiettivi della candidata, la sede è Milano e non è uno stage, ma richiede almeno 4 anni di esperienza, leggermente superiore ai 3 anni della candidata",
     "first_seen": "2026-11-05T15:17:02.716821+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "S&You",
+    "title": "Brand Marketing Manager",
+    "location": "Lanza, Milano",
+    "url": "https://www.adzuna.it/details/5936474450?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "S&You, brand internazionale del Gruppo Synergie, è specializzata nella ricerca e selezione di professionisti di Middle e Senior Management in grado di generare valore in organizzazioni ad alta complessità. Affianchiamo PMI, aziende e gruppi industriali nella ricerca di figure manageriali specialistiche per supportare la costruzione di organizzazioni solide, competitive e orientate al futuro, contribuendo concretamente alla loro crescita e trasformazione. Per una storica realtà del settore Alime…",
+    "contract_type": "permanent",
+    "posted_date": "2026-10-21T10:36:31Z",
+    "id": "bef8da2b7d64ae52",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Brand Marketing Manager a Milano, ma non nel settore beauty richiesto dalla candidata",
+    "first_seen": "2026-11-06T14:56:34.454975+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "DOLCE&GABBANA",
+    "title": "Junior Beauty Retail Architect",
+    "location": "Milano MI, Italia",
+    "url": "https://it.trabajo.org/offerta-2264-1c7346dd22a464b2374fd188681838a4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:Trabajo.org",
+    "description": "Dolce & Gabbana seeks a Go to Market Junior Retail Architect to join the Go to Market team within the Beauty Division. You will translate global retail concepts into channel-specific layouts and execution solutions, with Travel Retail as the main priority.\n\nYou will collaborate with Global Retail Experience, markets, agencies, and suppliers on design adaptation, planograms, and documentation, ensuring brand standards and timely delivery.",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "31192005ee06f21c",
+    "relevance_score": 50,
+    "relevance_reason": "Ruolo focalizzato su retail architecture e visual merchandising, non pienamente in linea con un profilo brand/marketing, ma comunque junior nel settore beauty a Milano",
+    "first_seen": "2026-11-06T14:56:34.454975+00:00",
     "status": "nuovo"
   }
 ]
