@@ -2949,8 +2949,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "c7cacae0f0d25470",
-    "relevance_score": 75,
-    "relevance_reason": "Ruolo di Product Manager in cosmetica è affine al target, richiede esperienza di 4 anni (leggermente superiore ai 3 anni della candidata) e non è uno stage",
+    "relevance_score": 68,
+    "relevance_reason": "Buona corrispondenza di ruolo e settore, ma richiede 4 anni di esperienza da Product Manager, leggermente superiore ai 3 anni del candidato",
     "first_seen": "2026-11-04T15:14:20.901735+00:00",
     "status": "nuovo"
   },
@@ -3042,6 +3042,21 @@
     "relevance_score": 50,
     "relevance_reason": "Ruolo focalizzato su retail architecture e visual merchandising, non pienamente in linea con un profilo brand/marketing, ma comunque junior nel settore beauty a Milano",
     "first_seen": "2026-11-06T14:56:34.454975+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Coty",
+    "title": "Category Growth / Trade Marketing Manager - Fragrances (m/w/d)",
+    "location": "",
+    "url": "https://careers.coty.com/job/Darmstadt-Category-Growth-Trade-Marketing-Manager-Fragrances-%28mwd%29-HE-64295/1416683833/",
+    "source": "custom_llm",
+    "description": "",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "dcf6ee2b5741c76a",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo pertinente di brand/category marketing in settore beauty, ma la sede non è specificata e potrebbe non essere a Milano",
+    "first_seen": "2026-11-09T17:10:44.585986+00:00",
     "status": "nuovo"
   }
 ]
