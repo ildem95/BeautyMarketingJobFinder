@@ -3024,8 +3024,8 @@
     "contract_type": "permanent",
     "posted_date": "2026-10-21T10:36:31Z",
     "id": "bef8da2b7d64ae52",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo di Brand Marketing Manager a Milano, perfettamente in linea con le competenze e l'esperienza della candidata e senza elementi di stage o seniorità eccessiva",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo è pertinente al marketing/brand e la sede è a Milano, ma l'azienda non appare nel settore beauty, quindi la corrispondenza non è perfetta.",
     "first_seen": "2026-11-06T14:56:34.454975+00:00",
     "status": "nuovo"
   },
@@ -3054,8 +3054,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "dcf6ee2b5741c76a",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo pertinente di brand/category marketing in settore beauty, ma la sede non è specificata e potrebbe non essere a Milano",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Trade Marketing pertinente al brand, ma la sede non è specificata e potrebbe non corrispondere a Milano",
     "first_seen": "2026-11-09T17:10:44.585986+00:00",
     "status": "nuovo"
   },
@@ -3147,6 +3147,36 @@
     "relevance_score": 70,
     "relevance_reason": "Ruolo Product Manager nel settore haircare, in linea con il suo percorso di brand/marketing, ma la sede è a Osio Sotto (Bergamo) non a Milano e non è indicata modalità ibrida/remota.",
     "first_seen": "2026-11-13T15:13:19.689976+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Opella Healthcare Italy",
+    "title": "Brand Manager Buscopan - Milan",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5961916157?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Salary Range: €44,400.00 - €59,200.00 All Compensation will be determined commensurate with demonstrated experience. ‎ You’ve built experience, now use it where bold ideas meet real impact. At Opella, we’re challenging how self-care works for millions of people and need leaders and experts ready to shape what’s next. About the Job As our Buscopan Brand Manager, you will play a key role in driving the growth, performance, and long-term success of one of our most iconic brands. Working within a c…",
+    "contract_type": "full_time",
+    "posted_date": "2026-11-11T18:12:15Z",
+    "id": "5bdce2ff0b0f34bd",
+    "relevance_score": 65,
+    "relevance_reason": "Ruolo di Brand Manager in linea e sede a Milano, ma il settore farmaceutico non corrisponde al target beauty della candidata",
+    "first_seen": "2026-11-16T16:49:28.092941+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Galderma",
+    "title": "Brand Manager, Dermatology Skincare & Consumer Products",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5941633918?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Whether it's the unique breadth of our integrated offering that covers Injectable Aesthetics, Dermatological Skincare and Therapeutic Dermatology products; or our commitment to recognizing and rewarding people for the contribution they make - working here isn't like anywhere else. At Galderma, we actively give our teams reasons to believe in our ambition to become the leading dermatology company in the world. With us, you have the ultimate opportunity to gain new and challenging work experience…",
+    "contract_type": "full_time",
+    "posted_date": "2026-10-25T17:52:29Z",
+    "id": "40892d75b21b2d75",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo coerente, settore beauty, sede Milano, esperienza adeguata",
+    "first_seen": "2026-11-16T16:49:28.092941+00:00",
     "status": "nuovo"
   }
 ]
