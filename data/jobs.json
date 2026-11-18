@@ -1014,8 +1014,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-10-08T19:35:51Z",
     "id": "a5788750e72e9869",
-    "relevance_score": 88,
-    "relevance_reason": "Ruolo junior di Brand Specialist adatto, sede a Milano e non è uno stage",
+    "relevance_score": 60,
+    "relevance_reason": "Il ruolo è a Milano e ha una componente brand, ma è principalmente focalizzato sulla gestione account e vendite B2B, quindi solo parzialmente in linea con le aspirazioni di marketing/brand della candidata.",
     "first_seen": "2026-07-15T09:29:50.204273+00:00",
     "status": "nuovo"
   },
@@ -1314,8 +1314,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo affine al brand specialist con sede a Milano, ma più orientato a account management rispetto al puro marketing",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo orientato al brand in linea con l'esperienza e sede a Milano, ma il settore non è specificamente beauty",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
@@ -2664,8 +2664,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "914d93918f8863ad",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di brand marketing pertinente, ma la sede non è specificata e quindi incerta rispetto alla preferenza per Milano",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Brand Activation Manager in azienda beauty, coerente con le competenze di brand management della candidata e senza requisiti senior troppo elevati",
     "first_seen": "2026-10-15T12:53:04.912617+00:00",
     "status": "nuovo"
   },
