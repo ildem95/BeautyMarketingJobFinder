@@ -1314,8 +1314,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
-    "relevance_score": 80,
-    "relevance_reason": "Ruolo di Brand Specialist in ambito B2B, coerente con le competenze di brand/marketing, sede a Milano e non è uno stage",
+    "relevance_score": 75,
+    "relevance_reason": "Il ruolo di Associate Account Manager (Brand Specialist) è pertinente al profilo di brand/marketing, è a Milano e non è uno stage, ma non è specifico per il settore beauty",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
@@ -2889,8 +2889,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "9beceab7c35bc761",
-    "relevance_score": 60,
-    "relevance_reason": "Il ruolo è di marketing (Trade Marketing Coordinator) e sembra adatto al livello di esperienza, ma la sede non è indicata, quindi l'allineamento geografico è incerto",
+    "relevance_score": 55,
+    "relevance_reason": "Il ruolo di Trade Marketing Coordinator è pertinente al settore marketing/brand, ma la sede non è indicata e potrebbe non corrispondere a Milano, riducendo la pertinenza.",
     "first_seen": "2026-11-02T17:01:06.454533+00:00",
     "status": "nuovo"
   },
@@ -3160,7 +3160,7 @@
     "posted_date": "2026-11-11T18:12:15Z",
     "id": "5bdce2ff0b0f34bd",
     "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Manager a Milano, ma il settore farmaceutico non è in linea con l'interesse della candidata per il beauty",
+    "relevance_reason": "Ruolo di Brand Manager a Milano, ma fuori dal settore beauty desiderato",
     "first_seen": "2026-11-16T16:49:28.092941+00:00",
     "status": "nuovo"
   },
@@ -3222,6 +3222,36 @@
     "relevance_score": 80,
     "relevance_reason": "Buona corrispondenza: ruolo marketing in personal care a Milano, esperienza richiesta compatibile",
     "first_seen": "2026-11-20T16:01:22.890373+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "DOLCE&GABBANA",
+    "title": "DG Beauty | Product Marketing Assistant Make up",
+    "location": "Milano MI",
+    "url": "https://it.linkedin.com/jobs/view/dg-beauty-product-marketing-assistant-make-up-at-dolce-gabbana-4491936833?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:LinkedIn",
+    "description": "Position: DG Beauty Product Marketing Assistant Make up \n\nLocation: Milan\n\n\n\n\nAbout Us\n\nFounded in 1985, Dolce&Gabbana is an international leader in the fashion and luxury sector. Founders Domenico Dolce and Stefano Gabbana have always been the creative driving force behind the brand’s activities, as well as the principal architects of its development strategy. An expression of Italian style, the Group designs, manufactures, and distributes clothing, accessories, fragrances and cosmetics, watches and jewelry. It is also active in lifestyle collaborations, home furnishings, and unique haute couture segments.\n\n\n\n\nWe are currently seeking a Product Development Assistant as part of our amazing in-house Beauty Division a Make- Up team in Milan. \n\n\n\n\nMain responsibilities \n\n\n\n\nConduct market/trend analysis and competitor benchmarking to identify future product innovations. Analyse the positioning of the products for each market and establish propositions for new products. Analyse and develop the product mix: concept creation, packaging/design development, olfactive development, etc. Define the necessary support elements to achieve successful new product launches, in connection with communication, merchandising and trade marketing. Ensure smooth communication with internal and external collaborators. Follow-up the realization and advancements of on-going projects in the right timing. \n\n\nMain requirements  \n\n\n\n\nDegree in Marketing or Related Field. Strong interest in the world of Make- up and/or motivation for Beauty Sector in general. An experience in Marketing or Product Development will be a plus. Strategic- Organization, planning, facilitation, problem analysis, decision making. Creativity and Innovation- Creativity, business savvy, originality, intuition. Leadership and Personal- Collaboration, communication, autonomy, flexibility, initiative, proactivity. Fluent in English (written and oral conversation). Knowledge of the Italian language will be a plus.",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "5d8dc5e1779ad263",
+    "relevance_score": 80,
+    "relevance_reason": "Il ruolo è un assistente product marketing nel settore beauty a Milano, pertinente alle competenze di brand/marketing della candidata e non è uno stage.",
+    "first_seen": "2026-11-23T19:03:26.641885+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Labor Spa",
+    "title": "Digital Marketing Specialist – Beauty Brand",
+    "location": "Milano MI",
+    "url": "https://it.trabajo.org/offerta-5138-3192a38eb41973fcfdf7e2004782e010?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:Trabajo.org",
+    "description": "Labor Spa cerca una figura di Digital Marketing Specialist da inserire nel team Marketing presso la sede di Milano.\nLa risorsa gestirà l'e-commerce, interfacciandosi con web agency e curando le pagine social.\nSi richiedono competenze su Prestashop e Shopify, creazione di grafiche con Canva e gestione di campagne social (Facebook/Instagram).\nOfferta di lavoro a tempo pieno presso azienda storica nel settore bellezza.\nJ-*-Ljbffr",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "e81b6d296df5a98f",
+    "relevance_score": 88,
+    "relevance_reason": "Ruolo di digital marketing nel settore beauty a Milano, corrisponde alle competenze richieste e non è uno stage",
+    "first_seen": "2026-11-23T19:03:26.641885+00:00",
     "status": "nuovo"
   }
 ]
