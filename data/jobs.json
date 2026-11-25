@@ -1314,8 +1314,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-07-16T06:29:15Z",
     "id": "7a9ea5378c549ec2",
-    "relevance_score": 75,
-    "relevance_reason": "Il ruolo di Associate Account Manager (Brand Specialist) è pertinente al profilo di brand/marketing, è a Milano e non è uno stage, ma non è specifico per il settore beauty",
+    "relevance_score": 60,
+    "relevance_reason": "Ruolo di Associate Account Manager con focus su brand specialist e partnership B2B, localizzato a Milano e non è uno stage, ma è più orientato alla gestione account/vendite che al marketing puro, quindi parzialmente aderente al profilo della candidata.",
     "first_seen": "2026-07-21T09:57:32.554591+00:00",
     "status": "nuovo"
   },
@@ -2394,8 +2394,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "e66630a341ecef93",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in ambito beauty, ma la sede non è specificata e potrebbe non essere a Milano",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo di Brand Manager in linea con il profilo, ma la sede non è specificata, quindi non è chiaro se soddisfa la preferenza per Milano o lavoro remoto/ibrido",
     "first_seen": "2026-09-09T12:37:08.238124+00:00",
     "status": "nuovo"
   },
@@ -3084,8 +3084,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "f87d0acadb59c2c9",
-    "relevance_score": 90,
-    "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, perfettamente in linea con le competenze e le aspirazioni della candidata, non è uno stage e corrisponde ai target di marketing/brand.",
+    "relevance_score": 88,
+    "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, in linea con l'esperienza di brand manager di 3 anni e le aspirazioni di marketing/brand della candidata.",
     "first_seen": "2026-11-12T15:54:31.821427+00:00",
     "status": "nuovo"
   },
@@ -3099,8 +3099,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "b184d287cbca98af",
-    "relevance_score": 55,
-    "relevance_reason": "Ruolo marketing entry level in linea, ma mancano informazioni sulla sede e sul tipo di contratto",
+    "relevance_score": 70,
+    "relevance_reason": "Ruolo di Marketing Assistant pertinente al profilo, ma la sede e i dettagli contrattuali non sono indicati",
     "first_seen": "2026-11-12T15:54:31.821427+00:00",
     "status": "nuovo"
   },
@@ -3114,8 +3114,8 @@
     "contract_type": "full_time",
     "posted_date": "2026-11-11T18:11:31Z",
     "id": "bf8617780cbcd96a",
-    "relevance_score": 70,
-    "relevance_reason": "Ruolo di Brand Manager in Milano perfettamente in linea con le competenze, ma l'azienda è nel settore healthcare/self‑care, non strettamente beauty, quindi la pertinenza è buona ma non eccellente",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Brand Manager a Milano, in linea con le competenze; settore healthcare non è perfettamente beauty ma resta pertinente, quindi punteggio alto",
     "first_seen": "2026-11-13T15:13:19.689976+00:00",
     "status": "nuovo"
   },
@@ -3234,8 +3234,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "5d8dc5e1779ad263",
-    "relevance_score": 85,
-    "relevance_reason": "Ruolo di Product Marketing Assistant in ambito beauty a Milano, perfettamente in linea con le competenze e la localizzazione richiesta, non è uno stage.",
+    "relevance_score": 88,
+    "relevance_reason": "Posizione junior in product marketing nel settore beauty, a Milano, perfettamente in linea con il profilo della candidata",
     "first_seen": "2026-11-23T19:03:26.641885+00:00",
     "status": "nuovo"
   },
@@ -3252,6 +3252,36 @@
     "relevance_score": 88,
     "relevance_reason": "Ruolo di Digital Marketing Specialist nel settore beauty a Milano, perfettamente in linea con esperienza di brand/marketing e senza requisiti seniori o stage",
     "first_seen": "2026-11-23T19:03:26.641885+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Spin Master",
+    "title": "Junior Brand Manager",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5973084960?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "Please Note: If you are a current Spin Master employee with access to Workday, apply to this job via the Workday application. Are you a kid at heart looking to build a career with a leading global children's toy, entertainment and digital gaming company? At Spin Master, our unwavering commitment to open mindedness, integrity and innovation is a great part of what has made us an industry leader. How do we stay ahead of the pack? By hiring the best and brightest minds—and that’s why we want you! …",
+    "contract_type": null,
+    "posted_date": "2026-11-20T17:42:37Z",
+    "id": "54b4993e22784c64",
+    "relevance_score": 55,
+    "relevance_reason": "Il ruolo di Junior Brand Manager è pertinente, ma il settore giocattoli non corrisponde al target beauty desiderato dalla candidata",
+    "first_seen": "2026-11-25T17:52:55.987792+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "VERALAB",
+    "title": "Product Manager - Beauty Launch Strategy",
+    "location": "Milano MI",
+    "url": "https://www.jobijoba.it/annunci-di-lavoro/13/0646ffc842d072dd6786f599ac22c273?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "source": "google_jobs:Jobijoba",
+    "description": "Veralab cerca un Product Manager per definire la strategia di sviluppo e lanciare nuovi prodotti nel segmento beauty, guidando l’intero ciclo di product management in stretta collaborazione con stakeholder aziendali.\n\nVuole saperne di più su questo lavoro? Scorra verso il basso per scoprire quali competenze, esperienze e titoli di studio sono necessari.\nLa risorsa controllerà forecasting, budgeting e tempi di lancio, garantendo qualità, margini e coerenza del brand xjrgpwk su tutti i canali, lavorando con i team Content, Activation, Comunicazione e Digital.\n\n#J-18808-Ljbffr",
+    "contract_type": null,
+    "posted_date": null,
+    "id": "6ec7453704040346",
+    "relevance_score": 85,
+    "relevance_reason": "Ruolo di Product Manager nel beauty a Milano, in linea con le competenze e l'esperienza della candidata e non è uno stage",
+    "first_seen": "2026-11-25T17:52:55.987792+00:00",
     "status": "nuovo"
   }
 ]
