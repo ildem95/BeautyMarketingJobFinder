@@ -2664,8 +2664,8 @@
     "contract_type": null,
     "posted_date": null,
     "id": "914d93918f8863ad",
-    "relevance_score": 60,
-    "relevance_reason": "Ruolo di Brand Activation Manager è pertinente al profilo, ma mancano informazioni sulla sede (potrebbe non essere a Milano) e altri dettagli contrattuali",
+    "relevance_score": 80,
+    "relevance_reason": "Ruolo pertinente al marketing/brand, con esperienza compatibile e sede non specificata, quindi potenzialmente adatta a Milano",
     "first_seen": "2026-10-15T12:53:04.912617+00:00",
     "status": "nuovo"
   },
@@ -3085,7 +3085,7 @@
     "posted_date": null,
     "id": "f87d0acadb59c2c9",
     "relevance_score": 88,
-    "relevance_reason": "Ruolo di Product Manager nel settore beauty a Milano, in linea con l'esperienza di brand manager di 3 anni e le aspirazioni di marketing/brand della candidata.",
+    "relevance_reason": "Ruolo di Product Manager nel beauty a Milano corrisponde alle competenze di brand/marketing della candidata e non è senior né stage.",
     "first_seen": "2026-11-12T15:54:31.821427+00:00",
     "status": "nuovo"
   },
@@ -3175,7 +3175,7 @@
     "posted_date": "2026-10-25T17:52:29Z",
     "id": "40892d75b21b2d75",
     "relevance_score": 88,
-    "relevance_reason": "Ruolo di Brand Manager nel settore skincare dermatologico a Milano, perfettamente in linea con l'esperienza di 3 anni e l'interesse per il beauty, non è uno stage",
+    "relevance_reason": "Ruolo Brand Manager in skincare a Milano, in linea con l'esperienza e l'obiettivo di entrare nel settore beauty",
     "first_seen": "2026-11-16T16:49:28.092941+00:00",
     "status": "nuovo"
   },
@@ -3282,6 +3282,21 @@
     "relevance_score": 85,
     "relevance_reason": "Ruolo di Product Manager nel beauty a Milano, in linea con le competenze e l'esperienza della candidata e non è uno stage",
     "first_seen": "2026-11-25T17:52:55.987792+00:00",
+    "status": "nuovo"
+  },
+  {
+    "company": "Teva Pharmaceuticals",
+    "title": "Brand Manager",
+    "location": "Milano, Provincia di Milano",
+    "url": "https://www.adzuna.it/details/5976863259?utm_medium=api&utm_source=bf14fd48",
+    "source": "adzuna",
+    "description": "We Are Teva We're Teva, a leading innovative biopharmaceutical company, enabled by a world-class generics business. Whether it's innovating in the fields of neuroscience and immunology or delivering high-quality medicine worldwide, we're dedicated to addressing patients' needs now and in the future. Here, you will be part of a high-performing, inclusive culture that values fresh thinking and collaboration. You'll have the room to grow, the flexibility to balance life with work, and the opportun…",
+    "contract_type": null,
+    "posted_date": "2026-11-24T08:07:10Z",
+    "id": "ff517a68b8b75c1e",
+    "relevance_score": 70,
+    "relevance_reason": "Il ruolo di Brand Manager è in linea con le competenze, ma l'azienda è nel settore farmaceutico e non quello beauty desiderato dalla candidata",
+    "first_seen": "2026-11-27T17:12:54.527026+00:00",
     "status": "nuovo"
   }
 ]
